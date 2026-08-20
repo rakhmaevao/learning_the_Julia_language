@@ -3,18 +3,81 @@ difficulty = "Easy"
 entrypoints = ["two_sum"]
 id = 1
 link = "https://leetcode.com/problems/two-sum/description/"
-runs = []
 slug = "two-sum"
 title = "Two Sum"
 
 [progress]
-attempts = 0
-best_bytes = 0
-best_time_ns = 0
-first_solved_at = ""
+attempts = 7
+best_bytes = 132608
+best_time_ns = 4220942
+first_solved_at = "2026-08-20"
 notes = ""
-solved_at = ""
-status = "todo"
+solved_at = "2026-08-20"
+status = "solved"
+
+[[runs]]
+at = "2026-08-20T09:01:49"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:06:50"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:07:11"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:09:15"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:09:47"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:10:34"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-20T09:11:16"
+bytes = 132608
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 3
+passed = true
+time_ns = 4220942
 
 [source]
 author = "Tian Jun"

@@ -4,6 +4,14 @@
 using LeetKit.Support
 
 function two_sum(nums::Vector{Int}, target::Int)::Union{Nothing, Tuple{Int, Int}}
-    # TODO: напишите своё решение
-    error("Задача ещё не решена: two_sum")
+    for i_left in range(1, length(nums))
+        for i_right in range(1, length(nums))
+            if i_left == i_right
+                continue
+            end
+            if nums[i_left] + nums[i_right] == target
+                return (i_left, i_right)
+            end
+        end
+    end
 end

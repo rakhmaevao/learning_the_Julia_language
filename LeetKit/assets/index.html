@@ -6,10 +6,10 @@
 <title>JuliaLeet — задачи LeetCode на Julia</title>
 <style>
 :root{
-  --bg:#12141a; --bg2:#1a1d26; --bg3:#232734; --line:#2e3342;
-  --fg:#e6e8ee; --dim:#98a0b3; --acc:#7aa2f7; --acc2:#9d7cd8;
-  --easy:#3fb950; --medium:#d29922; --hard:#f85149;
-  --ok:#3fb950; --err:#f85149;
+  --bg:#f5f6f8; --bg2:#ffffff; --bg3:#eceef2; --line:#d8dce3;
+  --fg:#1b1f27; --dim:#6b7280; --acc:#3b6fd6; --acc2:#7c4dd1;
+  --easy:#1a7f37; --medium:#9a6700; --hard:#cf222e;
+  --ok:#1a7f37; --err:#cf222e;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
@@ -36,7 +36,7 @@ input,select,textarea,button{font:inherit;color:var(--fg);background:var(--bg2);
 input:focus,select:focus,textarea:focus{border-color:var(--acc)}
 button{cursor:pointer}
 button:hover{background:var(--bg3)}
-button.primary{background:var(--acc);color:#0d1117;border-color:var(--acc);font-weight:600}
+button.primary{background:var(--acc);color:#ffffff;border-color:var(--acc);font-weight:600}
 button.primary:hover{filter:brightness(1.1)}
 button:disabled{opacity:.5;cursor:default}
 table{width:100%;border-collapse:collapse}
@@ -62,7 +62,7 @@ tbody tr:hover{background:var(--bg2)}
 .calgrid{display:flex;gap:3px}
 .calweek{display:flex;flex-direction:column;gap:3px}
 .day{width:13px;height:13px;border-radius:3px;background:var(--bg3);position:relative}
-.day.lvl0{background:#20242e}
+.day.lvl0{background:#e3e6ec}
 .day.act{outline:1px solid var(--line)}
 .day.Easy{background:var(--easy)} .day.Medium{background:var(--medium)} .day.Hard{background:var(--hard)}
 .day.multi{background:linear-gradient(135deg,var(--easy),var(--medium),var(--hard))}
@@ -88,7 +88,7 @@ tbody tr:hover{background:var(--bg2)}
 .path{font-family:ui-monospace,monospace;font-size:12px;background:var(--bg2);border:1px solid var(--line);
   border-radius:8px;padding:8px 10px;display:flex;gap:10px;align-items:center;justify-content:space-between}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
-.log{white-space:pre-wrap;font:12.5px/1.5 ui-monospace,monospace;background:#0d1117;border:1px solid var(--line);
+.log{white-space:pre-wrap;font:12.5px/1.5 ui-monospace,monospace;background:#eef0f4;border:1px solid var(--line);
   border-radius:8px;padding:12px;max-height:340px;overflow:auto;margin-top:12px}
 .log.ok{border-color:var(--ok)} .log.err{border-color:var(--err)}
 .kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px;margin:10px 0}
@@ -149,7 +149,7 @@ tbody tr:hover{background:var(--bg2)}
       </div>
       <div class="cal"><div class="calmonths" id="calmonths"></div><div class="calgrid" id="calgrid"></div></div>
       <div class="legend">
-        <span><i style="background:#20242e"></i>нет решений</span>
+        <span><i style="background:#e3e6ec"></i>нет решений</span>
         <span><i style="background:var(--easy)"></i>Easy</span>
         <span><i style="background:var(--medium)"></i>Medium</span>
         <span><i style="background:var(--hard)"></i>Hard</span>
