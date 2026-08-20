@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["sum_numbers"]
+id = 129
+link = "https://leetcode.com/problems/sum-root-to-leaf-numbers/description/"
+runs = []
+slug = "sum-root-to-leaf-numbers"
+title = "Sum Root to Leaf Numbers"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-24"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

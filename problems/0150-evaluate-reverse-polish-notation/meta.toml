@@ -1,0 +1,22 @@
+categories = ["Stack"]
+difficulty = "Medium"
+entrypoints = ["eval_rpn"]
+id = 150
+link = "https://leetcode.com/problems/evaluate-reverse-polish-notation/description/"
+runs = []
+slug = "evaluate-reverse-polish-notation"
+title = "Evaluate Reverse Polish Notation"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

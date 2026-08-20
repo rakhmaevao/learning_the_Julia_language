@@ -1,0 +1,22 @@
+categories = ["Math", "Two Pointers"]
+difficulty = "Medium"
+entrypoints = ["sample_stats"]
+id = 1093
+link = "https://leetcode.com/problems/statistics-from-a-large-sample/description/"
+runs = []
+slug = "statistics-from-a-large-sample"
+title = "Statistics from a Large Sample"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-08-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

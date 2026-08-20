@@ -1,0 +1,22 @@
+categories = ["Array", "Greedy"]
+difficulty = "Easy"
+entrypoints = ["max_profit"]
+id = 122
+link = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/"
+runs = []
+slug = "best-time-to-buy-and-sell-stock-ii"
+title = "Best Time to Buy and Sell Stock II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

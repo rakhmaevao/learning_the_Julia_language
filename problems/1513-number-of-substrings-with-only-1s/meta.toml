@@ -1,0 +1,22 @@
+categories = ["Math", "String"]
+difficulty = "Medium"
+entrypoints = ["num_sub"]
+id = 1513
+link = "https://leetcode.com/problems/number-of-substrings-with-only-1s/description/"
+runs = []
+slug = "number-of-substrings-with-only-1s"
+title = "Number of Substrings With Only 1s"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-10-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

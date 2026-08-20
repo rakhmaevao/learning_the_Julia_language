@@ -1,0 +1,22 @@
+categories = ["Array", "Hash Table"]
+difficulty = "Medium"
+entrypoints = ["subarrays_div_by_k"]
+id = 974
+link = "https://leetcode.com/problems/subarray-sums-divisible-by-k/description/"
+runs = []
+slug = "subarray-sums-divisible-by-k"
+title = "Subarray Sums Divisible by K"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

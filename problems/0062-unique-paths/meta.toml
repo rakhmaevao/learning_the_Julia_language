@@ -1,0 +1,22 @@
+categories = ["Array", "Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["unique_paths"]
+id = 62
+link = "https://leetcode.com/problems/unique-paths/description/"
+runs = []
+slug = "unique-paths"
+title = "Unique Paths"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-12-09"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

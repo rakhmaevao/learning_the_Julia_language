@@ -1,0 +1,22 @@
+categories = ["Math", "Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["num_dup_digits_at_most_n"]
+id = 1012
+link = "https://leetcode.com/problems/numbers-with-repeated-digits/description/"
+runs = []
+slug = "numbers-with-repeated-digits"
+title = "Numbers With Repeated Digits"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

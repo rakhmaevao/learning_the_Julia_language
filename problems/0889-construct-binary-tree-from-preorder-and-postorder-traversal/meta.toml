@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Medium"
+entrypoints = ["construct_from_pre_post"]
+id = 889
+link = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/"
+runs = []
+slug = "construct-binary-tree-from-preorder-and-postorder-traversal"
+title = "Construct Binary Tree from Preorder and Postorder Traversal"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

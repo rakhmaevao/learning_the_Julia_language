@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Graph"]
+difficulty = "Medium"
+entrypoints = ["possible_bipartition"]
+id = 886
+link = "https://leetcode.com/problems/possible-bipartition/description/"
+runs = []
+slug = "possible-bipartition"
+title = "Possible Bipartition"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-10-16"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

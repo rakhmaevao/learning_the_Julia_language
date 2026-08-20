@@ -1,0 +1,22 @@
+categories = ["Array", "Greedy"]
+difficulty = "Medium"
+entrypoints = ["can_jump"]
+id = 55
+link = "https://leetcode.com/problems/jump-game/description/"
+runs = []
+slug = "jump-game"
+title = "Jump Game"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-16"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

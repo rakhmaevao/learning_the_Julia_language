@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["flip_and_invert_image"]
+id = 832
+link = "https://leetcode.com/problems/flipping-an-image/description/"
+runs = []
+slug = "flipping-an-image"
+title = "Flipping an Image"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-02-24"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

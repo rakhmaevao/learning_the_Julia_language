@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["thousand_separator"]
+id = 1556
+link = "https://leetcode.com/problems/thousand-separator/description/"
+runs = []
+slug = "thousand-separator"
+title = "Thousand Separator"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

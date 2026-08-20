@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Medium"
+entrypoints = ["compare_version"]
+id = 165
+link = "https://leetcode.com/problems/compare-version-numbers/description/"
+runs = []
+slug = "compare-version-numbers"
+title = "Compare Version Numbers"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

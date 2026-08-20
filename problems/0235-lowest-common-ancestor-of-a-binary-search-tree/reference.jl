@@ -1,0 +1,11 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function lowest_common_ancestor_235(root::TreeNode, p::TreeNode, q::TreeNode)::TreeNode
+    lv, gv = p.val < q.val ? (p.val, q.val) : (q.val, p.val)
+    while true
+        lv <= root.val <= gv && return root
+        root = root.val < lv ? root.right : root.left
+    end
+end

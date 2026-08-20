@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["min_days_1553"]
+id = 1553
+link = "https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/description/"
+runs = []
+slug = "minimum-number-of-days-to-eat-n-oranges"
+title = "Minimum Number of Days to Eat N Oranges"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Binary Search", "Dynamic Programming", "Greedy"]
+difficulty = "Easy"
+entrypoints = ["is_subsequence"]
+id = 392
+link = "https://leetcode.com/problems/is-subsequence/description/"
+runs = []
+slug = "is-subsequence"
+title = "Is Subsequence"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-11-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Medium"
+entrypoints = ["bst_from_preorder"]
+id = 1008
+link = "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/"
+runs = []
+slug = "construct-binary-search-tree-from-preorder-traversal"
+title = "Construct Binary Search Tree from Preorder Traversal"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

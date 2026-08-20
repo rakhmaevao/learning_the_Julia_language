@@ -1,0 +1,22 @@
+categories = ["Linked List"]
+difficulty = "Medium"
+entrypoints = ["split_list_to_parts"]
+id = 725
+link = "https://leetcode.com/problems/split-linked-list-in-parts/description/"
+runs = []
+slug = "split-linked-list-in-parts"
+title = "Split Linked List in Parts"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-09-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

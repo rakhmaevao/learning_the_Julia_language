@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["image_smoother"]
+id = 661
+link = "https://leetcode.com/problems/image-smoother/description/"
+runs = []
+slug = "image-smoother"
+title = "Image Smoother"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-24"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

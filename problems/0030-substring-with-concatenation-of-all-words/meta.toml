@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Two Pointers", "String"]
+difficulty = "Hard"
+entrypoints = ["find_word_concatenation"]
+id = 30
+link = "https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/"
+runs = []
+slug = "substring-with-concatenation-of-all-words"
+title = "Substring with Concatenation of All Words"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

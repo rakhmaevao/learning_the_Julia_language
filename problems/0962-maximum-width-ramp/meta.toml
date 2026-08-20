@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["max_width_ramp"]
+id = 962
+link = "https://leetcode.com/problems/maximum-width-ramp/description/"
+runs = []
+slug = "maximum-width-ramp"
+title = "Maximum Width Ramp"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-25"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

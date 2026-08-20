@@ -1,0 +1,22 @@
+categories = ["Linked List"]
+difficulty = "Easy"
+entrypoints = ["merge_two_lists"]
+id = 21
+link = "https://leetcode.com/problems/merge-two-sorted-lists/description/"
+runs = []
+slug = "merge-two-sorted-lists"
+title = "Merge Two Sorted Lists"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

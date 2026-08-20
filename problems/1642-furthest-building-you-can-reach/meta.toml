@@ -1,0 +1,22 @@
+categories = ["Binary Search", "Heap"]
+difficulty = "Medium"
+entrypoints = ["furthest_building"]
+id = 1642
+link = "https://leetcode.com/problems/furthest-building-you-can-reach/description/"
+runs = []
+slug = "furthest-building-you-can-reach"
+title = "Furthest Building You Can Reach"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

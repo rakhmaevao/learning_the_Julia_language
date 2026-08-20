@@ -1,0 +1,22 @@
+categories = ["Graph"]
+difficulty = "Easy"
+entrypoints = ["find_judge"]
+id = 997
+link = "https://leetcode.com/problems/find-the-town-judge/description/"
+runs = []
+slug = "find-the-town-judge"
+title = "Find the Town Judge"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

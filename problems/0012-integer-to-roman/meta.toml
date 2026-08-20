@@ -1,0 +1,23 @@
+categories = ["Math", "String"]
+difficulty = "Medium"
+entrypoints = ["int_to_roman"]
+id = 12
+link = "https://leetcode.com/problems/integer-to-roman/description/"
+reference_ok = false
+runs = []
+slug = "integer-to-roman"
+title = "Integer to Roman"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

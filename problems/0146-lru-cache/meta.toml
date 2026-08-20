@@ -1,0 +1,22 @@
+categories = ["Design"]
+difficulty = "Medium"
+entrypoints = ["Base.getindex", "Base.setindex!"]
+id = 146
+link = "https://leetcode.com/problems/lru-cache/description/"
+runs = []
+slug = "lru-cache"
+title = "LRU Cache"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-03"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Math", "String"]
+difficulty = "Hard"
+entrypoints = ["orderly_queue"]
+id = 899
+link = "https://leetcode.com/problems/orderly-queue/description/"
+runs = []
+slug = "orderly-queue"
+title = "Orderly Queue"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

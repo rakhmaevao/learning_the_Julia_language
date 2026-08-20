@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search", "Recursion"]
+difficulty = "Easy"
+entrypoints = ["maximum_depth_of_btree"]
+id = 104
+link = "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/"
+runs = []
+slug = "maximum-depth-of-binary-tree"
+title = "Maximum Depth of Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

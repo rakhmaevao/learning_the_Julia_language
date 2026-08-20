@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Easy"
+entrypoints = ["rob_198"]
+id = 198
+link = "https://leetcode.com/problems/house-robber/description/"
+runs = []
+slug = "house-robber"
+title = "House Robber"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

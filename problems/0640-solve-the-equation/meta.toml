@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["solve_equation"]
+id = 640
+link = "https://leetcode.com/problems/solve-the-equation/description/"
+runs = []
+slug = "solve-the-equation"
+title = "Solve the Equation"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-08-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

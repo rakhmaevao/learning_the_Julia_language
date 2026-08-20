@@ -1,0 +1,22 @@
+categories = ["Binary Search"]
+difficulty = "Hard"
+entrypoints = ["preimage_size_fzf"]
+id = 793
+link = "https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/description/"
+runs = []
+slug = "preimage-size-of-factorial-zeroes-function"
+title = "Preimage Size of Factorial Zeroes Function"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

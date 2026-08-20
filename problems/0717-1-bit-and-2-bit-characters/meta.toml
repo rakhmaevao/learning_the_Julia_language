@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["is_one_bit_character"]
+id = 717
+link = "https://leetcode.com/problems/1-bit-and-2-bit-characters/description/"
+runs = []
+slug = "1-bit-and-2-bit-characters"
+title = "1-bit and 2-bit Characters"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

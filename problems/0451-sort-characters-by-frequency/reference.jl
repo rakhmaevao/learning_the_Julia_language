@@ -1,0 +1,13 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function frequency_sort(s::String)
+    u_vec = codeunits(s)[:]
+    freq = fill(0, 128)
+    for n in codeunits(s)
+        freq[n] += 1
+    end
+    sort!(u_vec; by=x -> (freq[x], x), rev = true)
+    String(u_vec)
+end

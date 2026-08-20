@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["prefixes_div_by5"]
+id = 1018
+link = "https://leetcode.com/problems/binary-prefix-divisible-by-5/description/"
+runs = []
+slug = "binary-prefix-divisible-by-5"
+title = "Binary Prefix Divisible By 5"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-03-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

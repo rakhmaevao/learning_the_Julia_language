@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Bit Manipulation"]
+difficulty = "Hard"
+entrypoints = ["get_bit_mask", "find_num_of_valid_words"]
+id = 1178
+link = "https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/description/"
+runs = []
+slug = "number-of-valid-words-for-each-puzzle"
+title = "Number of Valid Words for Each Puzzle"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-02-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

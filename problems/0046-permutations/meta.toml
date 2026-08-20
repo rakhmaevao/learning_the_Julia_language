@@ -1,0 +1,22 @@
+categories = ["Backtracking"]
+difficulty = "Medium"
+entrypoints = ["permutation", "permutation!"]
+id = 46
+link = "https://leetcode.com/problems/permutations/description/"
+runs = []
+slug = "permutations"
+title = "Permutations"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Pixia1234"
+date = "2024-07-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

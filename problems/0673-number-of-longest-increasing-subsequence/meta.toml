@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["find_number_of_LIS"]
+id = 673
+link = "https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/"
+runs = []
+slug = "number-of-longest-increasing-subsequence"
+title = "Number of Longest Increasing Subsequence"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-27"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

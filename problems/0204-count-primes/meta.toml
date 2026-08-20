@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Easy"
+entrypoints = ["count_primes"]
+id = 204
+link = "https://leetcode.com/problems/count-primes/description/"
+runs = []
+slug = "count-primes"
+title = "Count Primes"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-12-03"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

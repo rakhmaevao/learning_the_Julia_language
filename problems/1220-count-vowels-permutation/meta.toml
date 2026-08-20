@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["count_vowel_permutation"]
+id = 1220
+link = "https://leetcode.com/problems/count-vowels-permutation/description/"
+runs = []
+slug = "count-vowels-permutation"
+title = "Count Vowels Permutation"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

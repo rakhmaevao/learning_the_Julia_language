@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search", "Recursion"]
+difficulty = "Easy"
+entrypoints = ["increasing_bst"]
+id = 897
+link = "https://leetcode.com/problems/increasing-order-search-tree/description/"
+runs = []
+slug = "increasing-order-search-tree"
+title = "Increasing Order Search Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

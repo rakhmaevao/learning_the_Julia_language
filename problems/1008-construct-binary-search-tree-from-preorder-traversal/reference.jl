@@ -1,0 +1,18 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function bst_from_preorder(preorder::AbstractVector{Int})
+    if isempty(preorder)
+        return nothing
+    end
+    i, f = 2, preorder[1]
+    root = TreeNode(f)
+    while i <= length(preorder) && preorder[i] < f
+        i += 1
+    end
+    i -= 1
+    root.left = bst_from_preorder(@view preorder[2:i])
+    root.right = bst_from_preorder(@view preorder[(i + 1):end])
+    return root
+end

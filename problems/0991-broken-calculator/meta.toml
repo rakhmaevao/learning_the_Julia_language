@@ -1,0 +1,22 @@
+categories = ["Math", "Greedy"]
+difficulty = "Medium"
+entrypoints = ["broken_calc"]
+id = 991
+link = "https://leetcode.com/problems/broken-calculator/description/"
+runs = []
+slug = "broken-calculator"
+title = "Broken Calculator"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["sort_array_by_parity!"]
+id = 905
+link = "https://leetcode.com/problems/sort-array-by-parity/description/"
+runs = []
+slug = "sort-array-by-parity"
+title = "Sort Array By Parity"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-10-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["is_robot_bounded"]
+id = 1041
+link = "https://leetcode.com/problems/robot-bounded-in-circle/description/"
+runs = []
+slug = "robot-bounded-in-circle"
+title = "Robot Bounded In Circle"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

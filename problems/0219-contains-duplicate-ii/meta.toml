@@ -1,0 +1,22 @@
+categories = ["Array", "Hash Table"]
+difficulty = "Easy"
+entrypoints = ["contains_nearby_duplicate"]
+id = 219
+link = "https://leetcode.com/problems/contains-duplicate-ii/description/"
+runs = []
+slug = "contains-duplicate-ii"
+title = "Contains Duplicate II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

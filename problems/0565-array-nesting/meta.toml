@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["array_nesting"]
+id = 565
+link = "https://leetcode.com/problems/array-nesting/description/"
+runs = []
+slug = "array-nesting"
+title = "Array Nesting"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

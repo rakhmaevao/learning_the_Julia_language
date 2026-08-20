@@ -1,0 +1,22 @@
+categories = ["Two Pointers", "Sliding Window"]
+difficulty = "Medium"
+entrypoints = ["longest_ones"]
+id = 1004
+link = "https://leetcode.com/problems/max-consecutive-ones-iii/description/"
+runs = []
+slug = "max-consecutive-ones-iii"
+title = "Max Consecutive Ones III"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2020-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

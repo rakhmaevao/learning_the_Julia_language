@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Hard"
+entrypoints = ["count_digit_one"]
+id = 233
+link = "https://leetcode.com/problems/number-of-digit-one/description/"
+runs = []
+slug = "number-of-digit-one"
+title = "Number of Digit One"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

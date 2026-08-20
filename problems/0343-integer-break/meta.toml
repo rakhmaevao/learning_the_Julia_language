@@ -1,0 +1,22 @@
+categories = ["Math", "Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["integer_break"]
+id = 343
+link = "https://leetcode.com/problems/integer-break/description/"
+runs = []
+slug = "integer-break"
+title = "Integer Break"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

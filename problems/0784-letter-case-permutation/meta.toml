@@ -1,0 +1,22 @@
+categories = ["Backtracking", "Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["letter_case_permutation"]
+id = 784
+link = "https://leetcode.com/problems/letter-case-permutation/description/"
+runs = []
+slug = "letter-case-permutation"
+title = "Letter Case Permutation"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

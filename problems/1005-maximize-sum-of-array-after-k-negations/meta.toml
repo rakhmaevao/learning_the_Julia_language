@@ -1,0 +1,22 @@
+categories = ["Greedy"]
+difficulty = "Easy"
+entrypoints = ["largest_sum_after_k_negations"]
+id = 1005
+link = "https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/description/"
+runs = []
+slug = "maximize-sum-of-array-after-k-negations"
+title = "Maximize Sum Of Array After K Negations"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Breadth-first Search"]
+difficulty = "Hard"
+entrypoints = ["min_jumps_1345"]
+id = 1345
+link = "https://leetcode.com/problems/jump-game-iv/description/"
+runs = []
+slug = "jump-game-iv"
+title = "Jump Game IV"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

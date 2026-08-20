@@ -1,0 +1,22 @@
+categories = ["Array", "Two Pointers", "Binary Search"]
+difficulty = "Easy"
+entrypoints = ["two_sum_167"]
+id = 167
+link = "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/"
+runs = []
+slug = "two-sum-ii-input-array-is-sorted"
+title = "Two Sum II - Input array is sorted"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

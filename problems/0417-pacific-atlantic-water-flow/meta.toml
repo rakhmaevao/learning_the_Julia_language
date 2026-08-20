@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["pacific_atlantic"]
+id = 417
+link = "https://leetcode.com/problems/pacific-atlantic-water-flow/description/"
+runs = []
+slug = "pacific-atlantic-water-flow"
+title = "Pacific Atlantic Water Flow"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

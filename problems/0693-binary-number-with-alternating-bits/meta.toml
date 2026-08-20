@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Easy"
+entrypoints = ["has_alternating_bits"]
+id = 693
+link = "https://leetcode.com/problems/binary-number-with-alternating-bits/description/"
+runs = []
+slug = "binary-number-with-alternating-bits"
+title = "Binary Number with Alternating Bits"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

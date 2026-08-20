@@ -1,0 +1,22 @@
+categories = ["Array", "Sort"]
+difficulty = "Medium"
+entrypoints = ["merge_intervals"]
+id = 56
+link = "https://leetcode.com/problems/merge-intervals/description/"
+runs = []
+slug = "merge-intervals"
+title = "Merge Intervals"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Jimmy Shen"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

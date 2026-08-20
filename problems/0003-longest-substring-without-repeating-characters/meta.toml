@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Two Pointers", "String", "Sliding Window"]
+difficulty = "Medium"
+entrypoints = ["length_of_longest_substring"]
+id = 3
+link = "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/"
+runs = []
+slug = "longest-substring-without-repeating-characters"
+title = "Longest Substring Without Repeating Characters"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

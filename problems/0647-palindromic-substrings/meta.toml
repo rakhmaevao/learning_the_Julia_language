@@ -1,0 +1,22 @@
+categories = ["String", "Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["count_substrings"]
+id = 647
+link = "https://leetcode.com/problems/palindromic-substrings/description/"
+runs = []
+slug = "palindromic-substrings"
+title = "Palindromic Substrings"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-27"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

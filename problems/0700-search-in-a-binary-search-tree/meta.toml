@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Easy"
+entrypoints = ["search_bst"]
+id = 700
+link = "https://leetcode.com/problems/search-in-a-binary-search-tree/description/"
+runs = []
+slug = "search-in-a-binary-search-tree"
+title = "Search in a Binary Search Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

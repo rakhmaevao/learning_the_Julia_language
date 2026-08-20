@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["clumsy"]
+id = 1006
+link = "https://leetcode.com/problems/clumsy-factorial/description/"
+runs = []
+slug = "clumsy-factorial"
+title = "Clumsy Factorial"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

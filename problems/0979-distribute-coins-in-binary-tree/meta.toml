@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["distribute_coins"]
+id = 979
+link = "https://leetcode.com/problems/distribute-coins-in-binary-tree/description/"
+runs = []
+slug = "distribute-coins-in-binary-tree"
+title = "Distribute Coins in Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

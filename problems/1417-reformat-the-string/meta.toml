@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["reformatstr"]
+id = 1417
+link = "https://leetcode.com/problems/reformat-the-string/description/"
+runs = []
+slug = "reformat-the-string"
+title = "Reformat The String"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-08-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

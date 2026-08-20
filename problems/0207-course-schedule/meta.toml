@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Breadth-first Search", "Graph", "Topological Sort"]
+difficulty = "Medium"
+entrypoints = ["can_finish_courses"]
+id = 207
+link = "https://leetcode.com/problems/course-schedule/description/"
+runs = []
+slug = "course-schedule"
+title = "Course Schedule"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

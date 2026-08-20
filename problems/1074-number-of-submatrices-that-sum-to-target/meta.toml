@@ -1,0 +1,22 @@
+categories = ["Array", "Dynamic Programming", "Sliding Window"]
+difficulty = "Hard"
+entrypoints = ["num_submatrix_sum_target"]
+id = 1074
+link = "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/description/"
+runs = []
+slug = "number-of-submatrices-that-sum-to-target"
+title = "Number of Submatrices That Sum to Target"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

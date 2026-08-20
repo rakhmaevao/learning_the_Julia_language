@@ -1,0 +1,22 @@
+categories = ["Math", "Dynamic Programming", "Heap"]
+difficulty = "Medium"
+entrypoints = ["nth_ugly_number"]
+id = 264
+link = "https://leetcode.com/problems/ugly-number-ii/description/"
+runs = []
+slug = "ugly-number-ii"
+title = "Ugly Number II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-05"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

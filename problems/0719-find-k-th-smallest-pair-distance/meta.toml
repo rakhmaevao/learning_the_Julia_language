@@ -1,0 +1,22 @@
+categories = ["Array", "Binary Search", "Heap"]
+difficulty = "Hard"
+entrypoints = ["smallest_distance_pair"]
+id = 719
+link = "https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/"
+runs = []
+slug = "find-k-th-smallest-pair-distance"
+title = "Find K-th Smallest Pair Distance"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-04-07"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

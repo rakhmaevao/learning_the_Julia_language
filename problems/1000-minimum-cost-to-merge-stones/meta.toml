@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["merge_stones"]
+id = 1000
+link = "https://leetcode.com/problems/minimum-cost-to-merge-stones/description/"
+runs = []
+slug = "minimum-cost-to-merge-stones"
+title = "Minimum Cost to Merge Stones"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

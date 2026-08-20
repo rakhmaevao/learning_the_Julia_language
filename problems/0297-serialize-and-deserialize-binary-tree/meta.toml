@@ -1,0 +1,22 @@
+categories = ["Tree", "Design"]
+difficulty = "Hard"
+entrypoints = ["serialize", "deserialize"]
+id = 297
+link = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/"
+runs = []
+slug = "serialize-and-deserialize-binary-tree"
+title = "Serialize and Deserialize Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-11"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

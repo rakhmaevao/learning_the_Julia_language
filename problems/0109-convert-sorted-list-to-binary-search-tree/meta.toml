@@ -1,0 +1,22 @@
+categories = ["Linked List", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["sorted_list_to_bst"]
+id = 109
+link = "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/"
+runs = []
+slug = "convert-sorted-list-to-binary-search-tree"
+title = "Convert Sorted List to Binary Search Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

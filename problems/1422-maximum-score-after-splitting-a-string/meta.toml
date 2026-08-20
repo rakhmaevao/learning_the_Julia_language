@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["max_score"]
+id = 1422
+link = "https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/"
+runs = []
+slug = "maximum-score-after-splitting-a-string"
+title = "Maximum Score After Splitting a String"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-08-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

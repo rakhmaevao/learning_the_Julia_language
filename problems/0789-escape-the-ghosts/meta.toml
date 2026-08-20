@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["escape_ghosts"]
+id = 789
+link = "https://leetcode.com/problems/escape-the-ghosts/description/"
+runs = []
+slug = "escape-the-ghosts"
+title = "Escape The Ghosts"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

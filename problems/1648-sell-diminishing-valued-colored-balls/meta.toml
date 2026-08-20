@@ -1,0 +1,22 @@
+categories = ["Math", "Greedy", "Sort"]
+difficulty = "Medium"
+entrypoints = ["max_profit"]
+id = 1648
+link = "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/description/"
+runs = []
+slug = "sell-diminishing-valued-colored-balls"
+title = "Sell Diminishing-Valued Colored Balls"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Array", "Dynamic Programming", "Greedy"]
+difficulty = "Medium"
+entrypoints = ["max_profit714"]
+id = 714
+link = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/"
+runs = []
+slug = "best-time-to-buy-and-sell-stock-with-transaction-fee"
+title = "Best Time to Buy and Sell Stock with Transaction Fee"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Easy"
+entrypoints = ["license_key_formatting"]
+id = 482
+link = "https://leetcode.com/problems/license-key-formatting/description/"
+runs = []
+slug = "license-key-formatting"
+title = "License Key Formatting"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-03"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

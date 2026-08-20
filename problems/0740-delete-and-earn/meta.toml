@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["delete_and_earn"]
+id = 740
+link = "https://leetcode.com/problems/delete-and-earn/description/"
+runs = []
+slug = "delete-and-earn"
+title = "Delete and Earn"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

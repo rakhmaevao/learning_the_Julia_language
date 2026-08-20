@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["pivot_index"]
+id = 724
+link = "https://leetcode.com/problems/find-pivot-index/description/"
+runs = []
+slug = "find-pivot-index"
+title = "Find Pivot Index"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["min_flip"]
+id = 1318
+link = "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/"
+runs = []
+slug = "minimum-flips-to-make-a-or-b-equal-to-c"
+title = "Minimum Flips to Make a OR b Equal to c"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

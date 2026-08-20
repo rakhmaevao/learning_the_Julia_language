@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming", "Heap", "Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["find_cheapest_price"]
+id = 787
+link = "https://leetcode.com/problems/cheapest-flights-within-k-stops/description/"
+runs = []
+slug = "cheapest-flights-within-k-stops"
+title = "Cheapest Flights Within K Stops"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

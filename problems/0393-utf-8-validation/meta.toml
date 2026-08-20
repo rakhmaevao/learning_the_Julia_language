@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["valid_utf8"]
+id = 393
+link = "https://leetcode.com/problems/utf-8-validation/description/"
+runs = []
+slug = "utf-8-validation"
+title = "UTF-8 Validation"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

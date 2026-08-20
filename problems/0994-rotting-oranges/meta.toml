@@ -1,0 +1,22 @@
+categories = ["Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["oranges_rotting"]
+id = 994
+link = "https://leetcode.com/problems/rotting-oranges/description/"
+runs = []
+slug = "rotting-oranges"
+title = "Rotting Oranges"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

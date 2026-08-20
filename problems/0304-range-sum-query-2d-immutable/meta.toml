@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["sum_region"]
+id = 304
+link = "https://leetcode.com/problems/range-sum-query-2d-immutable/description/"
+runs = []
+slug = "range-sum-query-2d-immutable"
+title = "Range Sum Query 2D - Immutable"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-03-02"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

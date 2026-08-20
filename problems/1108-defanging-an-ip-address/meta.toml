@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["defanging_ip_address"]
+id = 1108
+link = "https://leetcode.com/problems/defanging-an-ip-address/description/"
+runs = []
+slug = "defanging-an-ip-address"
+title = "Defanging an IP Address"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-03-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

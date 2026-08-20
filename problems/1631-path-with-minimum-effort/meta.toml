@@ -1,0 +1,23 @@
+categories = ["Binary Search", "Depth-first Search", "Union Find", "Graph"]
+difficulty = "Medium"
+entrypoints = ["minimum_effort_path"]
+id = 1631
+link = "https://leetcode.com/problems/path-with-minimum-effort/description/"
+reference_ok = false
+runs = []
+slug = "path-with-minimum-effort"
+title = "Path With Minimum Effort"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

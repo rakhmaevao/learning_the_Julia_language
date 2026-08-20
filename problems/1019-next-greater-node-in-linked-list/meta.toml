@@ -1,0 +1,23 @@
+categories = ["Linked List", "Stack"]
+difficulty = "Medium"
+entrypoints = ["next_larger_nodes"]
+id = 1019
+link = "https://leetcode.com/problems/next-greater-node-in-linked-list/description/"
+reference_ok = false
+runs = []
+slug = "next-greater-node-in-linked-list"
+title = "Next Greater Node In Linked List"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-03-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

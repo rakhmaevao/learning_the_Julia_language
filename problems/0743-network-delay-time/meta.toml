@@ -1,0 +1,22 @@
+categories = ["Heap", "Depth-first Search", "Breadth-first Search", "Graph"]
+difficulty = "Medium"
+entrypoints = ["network_delay_time"]
+id = 743
+link = "https://leetcode.com/problems/network-delay-time/description/"
+runs = []
+slug = "network-delay-time"
+title = "Network Delay Time"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Heap", "Greedy"]
+difficulty = "Hard"
+entrypoints = ["find_maximized_capital"]
+id = 502
+link = "https://leetcode.com/problems/ipo/description/"
+runs = []
+slug = "ipo"
+title = "IPO"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-09-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

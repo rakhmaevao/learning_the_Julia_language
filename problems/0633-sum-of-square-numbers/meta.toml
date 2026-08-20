@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["judge_square_sum"]
+id = 633
+link = "https://leetcode.com/problems/sum-of-square-numbers/description/"
+runs = []
+slug = "sum-of-square-numbers"
+title = "Sum of Square Numbers"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-27"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Two Pointers", "Geometry"]
+difficulty = "Hard"
+entrypoints = ["max_visible_points"]
+id = 1610
+link = "https://leetcode.com/problems/maximum-number-of-visible-points/description/"
+runs = []
+slug = "maximum-number-of-visible-points"
+title = "Maximum Number of Visible Points"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

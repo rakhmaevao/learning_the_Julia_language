@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["check_record"]
+id = 552
+link = "https://leetcode.com/problems/student-attendance-record-ii/description/"
+runs = []
+slug = "student-attendance-record-ii"
+title = "Student Attendance Record II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-08-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Stack", "Design"]
+difficulty = "Easy"
+entrypoints = ["myqueue_push!", "myqueue_pop!", "myqueue_peek", "myqueue_isempty", "myqueue_move!"]
+id = 232
+link = "https://leetcode.com/problems/implement-queue-using-stacks/description/"
+runs = []
+slug = "implement-queue-using-stacks"
+title = "Implement Queue using Stacks"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-03-05"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

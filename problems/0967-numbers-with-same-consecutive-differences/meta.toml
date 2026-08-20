@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["nums_same_consec_diff"]
+id = 967
+link = "https://leetcode.com/problems/numbers-with-same-consecutive-differences/description/"
+runs = []
+slug = "numbers-with-same-consecutive-differences"
+title = "Numbers With Same Consecutive Differences"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["original_digits"]
+id = 423
+link = "https://leetcode.com/problems/reconstruct-original-digits-from-english/description/"
+runs = []
+slug = "reconstruct-original-digits-from-english"
+title = "Reconstruct Original Digits from English"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

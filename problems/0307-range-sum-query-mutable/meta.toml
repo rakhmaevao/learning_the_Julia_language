@@ -1,0 +1,22 @@
+categories = ["Binary Indexed Tree", "Segment Tree"]
+difficulty = "Medium"
+entrypoints = ["update!", "sum_range"]
+id = 307
+link = "https://leetcode.com/problems/range-sum-query-mutable/description/"
+runs = []
+slug = "range-sum-query-mutable"
+title = "Range Sum Query - Mutable"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

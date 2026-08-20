@@ -1,0 +1,22 @@
+categories = ["String", "Stack"]
+difficulty = "Medium"
+entrypoints = ["is_valid_abc_str"]
+id = 1003
+link = "https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/description/"
+runs = []
+slug = "check-if-word-is-valid-after-substitutions"
+title = "Check If Word Is Valid After Substitutions"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

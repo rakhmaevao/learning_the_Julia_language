@@ -1,0 +1,22 @@
+categories = ["Array", "Dynamic Programming"]
+difficulty = "Easy"
+entrypoints = ["max_profit_121"]
+id = 121
+link = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"
+runs = []
+slug = "best-time-to-buy-and-sell-stock"
+title = "Best Time to Buy and Sell Stock"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["beautiful_arrangement"]
+id = 667
+link = "https://leetcode.com/problems/beautiful-arrangement-ii/description/"
+runs = []
+slug = "beautiful-arrangement-ii"
+title = "Beautiful Arrangement II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

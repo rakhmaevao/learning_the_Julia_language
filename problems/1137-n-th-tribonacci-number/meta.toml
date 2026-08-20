@@ -1,0 +1,22 @@
+categories = ["Recursion"]
+difficulty = "Easy"
+entrypoints = ["tribonacci_1137"]
+id = 1137
+link = "https://leetcode.com/problems/n-th-tribonacci-number/description/"
+runs = []
+slug = "n-th-tribonacci-number"
+title = "N-th Tribonacci Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

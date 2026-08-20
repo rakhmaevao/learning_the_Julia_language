@@ -1,0 +1,22 @@
+categories = ["Array", "Divide and Conquer", "Dynamic Programming"]
+difficulty = "Easy"
+entrypoints = ["maximum_subarray"]
+id = 53
+link = "https://leetcode.com/problems/maximum-subarray/description/"
+runs = []
+slug = "maximum-subarray"
+title = "Maximum Subarray"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-16"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Hash Table"]
+difficulty = "Easy"
+entrypoints = ["repeated_n_times"]
+id = 961
+link = "https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/"
+runs = []
+slug = "n-repeated-element-in-size-2n-array"
+title = "N-Repeated Element in Size 2N Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-25"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

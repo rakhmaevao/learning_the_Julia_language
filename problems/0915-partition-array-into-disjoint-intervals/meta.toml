@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["partition_disjoint"]
+id = 915
+link = "https://leetcode.com/problems/partition-array-into-disjoint-intervals/description/"
+runs = []
+slug = "partition-array-into-disjoint-intervals"
+title = "Partition Array into Disjoint Intervals"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

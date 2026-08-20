@@ -1,0 +1,22 @@
+categories = ["Math", "Tree"]
+difficulty = "Medium"
+entrypoints = ["path_in_zig_zag_tree"]
+id = 1104
+link = "https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/description/"
+runs = []
+slug = "path-in-zigzag-labelled-binary-tree"
+title = "Path In Zigzag Labelled Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-03-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

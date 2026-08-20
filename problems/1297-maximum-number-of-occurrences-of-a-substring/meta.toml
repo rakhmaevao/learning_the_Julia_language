@@ -1,0 +1,22 @@
+categories = ["String", "Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["max_freq"]
+id = 1297
+link = "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/description/"
+runs = []
+slug = "maximum-number-of-occurrences-of-a-substring"
+title = "Maximum Number of Occurrences of a Substring"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

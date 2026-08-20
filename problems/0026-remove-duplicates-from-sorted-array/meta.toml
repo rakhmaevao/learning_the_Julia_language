@@ -1,0 +1,22 @@
+categories = ["Array", "Two Pointers"]
+difficulty = "Easy"
+entrypoints = ["remove_duplicates1!"]
+id = 26
+link = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/"
+runs = []
+slug = "remove-duplicates-from-sorted-array"
+title = "Remove Duplicates from Sorted Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["modify_string"]
+id = 1576
+link = "https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/description/"
+runs = []
+slug = "replace-all-s-to-avoid-consecutive-repeating-characters"
+title = "Replace All ?'s to Avoid Consecutive Repeating Characters"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-27"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

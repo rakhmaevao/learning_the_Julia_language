@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Breadth-first Search", "Graph"]
+difficulty = "Medium"
+entrypoints = ["is_bipartite"]
+id = 785
+link = "https://leetcode.com/problems/is-graph-bipartite/description/"
+runs = []
+slug = "is-graph-bipartite"
+title = "Is Graph Bipartite?"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

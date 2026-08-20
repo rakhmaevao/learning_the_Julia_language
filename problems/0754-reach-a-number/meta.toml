@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["reach_number"]
+id = 754
+link = "https://leetcode.com/problems/reach-a-number/description/"
+runs = []
+slug = "reach-a-number"
+title = "Reach a Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-11"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

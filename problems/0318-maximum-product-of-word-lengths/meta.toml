@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["max_product"]
+id = 318
+link = "https://leetcode.com/problems/maximum-product-of-word-lengths/description/"
+runs = []
+slug = "maximum-product-of-word-lengths"
+title = "Maximum Product of Word Lengths"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

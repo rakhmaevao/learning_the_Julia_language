@@ -1,0 +1,22 @@
+categories = ["String", "Ordered Map"]
+difficulty = "Medium"
+entrypoints = ["alert_names"]
+id = 1604
+link = "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/description/"
+runs = []
+slug = "alert-using-same-key-card-three-or-more-times-in-a-one-hour-period"
+title = "Alert Using Same Key-Card Three or More Times in a One Hour Period"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

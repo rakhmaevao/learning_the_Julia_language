@@ -1,0 +1,22 @@
+categories = ["Array", "Sort"]
+difficulty = "Easy"
+entrypoints = ["relative_sort_array"]
+id = 1122
+link = "https://leetcode.com/problems/relative-sort-array/description/"
+runs = []
+slug = "relative-sort-array"
+title = "Relative Sort Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-09-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

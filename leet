@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Точка входа CLI: ./leet <команда> ...
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export JULIALEET_ROOT="$ROOT"
+exec julia --startup-file=no --project="$ROOT" "$ROOT/tools/leet.jl" "$@"

@@ -1,0 +1,22 @@
+categories = ["Breadth-first Search"]
+difficulty = "Hard"
+entrypoints = ["min_cost1368"]
+id = 1368
+link = "https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/"
+runs = []
+slug = "minimum-cost-to-make-at-least-one-valid-path-in-a-grid"
+title = "Minimum Cost to Make at Least One Valid Path in a Grid"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-24"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Binary Search", "Divide and Conquer"]
+difficulty = "Medium"
+entrypoints = ["search_matrix"]
+id = 240
+link = "https://leetcode.com/problems/search-a-2d-matrix-ii/description/"
+runs = []
+slug = "search-a-2d-matrix-ii"
+title = "Search a 2D Matrix II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "woclass"
+date = "2020-10-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

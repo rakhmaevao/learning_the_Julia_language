@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Medium"
+entrypoints = ["count_battleships"]
+id = 419
+link = "https://leetcode.com/problems/battleships-in-a-board/description/"
+runs = []
+slug = "battleships-in-a-board"
+title = "Battleships in a Board"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

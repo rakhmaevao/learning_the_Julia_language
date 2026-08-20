@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Medium"
+entrypoints = ["lexical_order"]
+id = 386
+link = "https://leetcode.com/problems/lexicographical-numbers/description/"
+runs = []
+slug = "lexicographical-numbers"
+title = "Lexicographical Numbers"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

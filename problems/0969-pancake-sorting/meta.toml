@@ -1,0 +1,22 @@
+categories = ["Array", "Sort"]
+difficulty = "Medium"
+entrypoints = ["pancake_sort", "pancake_sort!"]
+id = 969
+link = "https://leetcode.com/problems/pancake-sorting/description/"
+runs = []
+slug = "pancake-sorting"
+title = "Pancake Sorting"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

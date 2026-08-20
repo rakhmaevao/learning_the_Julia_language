@@ -1,0 +1,22 @@
+categories = ["Design", "Queue"]
+difficulty = "Medium"
+entrypoints = ["is_full", "en_queue", "is_empty", "de_queue", "front", "rear"]
+id = 622
+link = "https://leetcode.com/problems/design-circular-queue/description/"
+runs = []
+slug = "design-circular-queue"
+title = "Design Circular Queue"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-08-04"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

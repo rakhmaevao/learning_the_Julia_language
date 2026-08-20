@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Medium"
+entrypoints = ["num_rabbits"]
+id = 781
+link = "https://leetcode.com/problems/rabbits-in-forest/description/"
+runs = []
+slug = "rabbits-in-forest"
+title = "Rabbits in Forest"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

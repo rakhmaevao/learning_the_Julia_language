@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["num_pairs_divisible_by60"]
+id = 1010
+link = "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/"
+runs = []
+slug = "pairs-of-songs-with-total-durations-divisible-by-60"
+title = "Pairs of Songs With Total Durations Divisible by 60"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["can_three_parts_equal_sum"]
+id = 1013
+link = "https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/description/"
+runs = []
+slug = "partition-array-into-three-parts-with-equal-sum"
+title = "Partition Array Into Three Parts With Equal Sum"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

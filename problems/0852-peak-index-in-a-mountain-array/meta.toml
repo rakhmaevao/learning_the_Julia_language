@@ -1,0 +1,22 @@
+categories = ["Binary Search"]
+difficulty = "Easy"
+entrypoints = ["peak_index_in_mountain_array"]
+id = 852
+link = "https://leetcode.com/problems/peak-index-in-a-mountain-array/description/"
+runs = []
+slug = "peak-index-in-a-mountain-array"
+title = "Peak Index in a Mountain Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

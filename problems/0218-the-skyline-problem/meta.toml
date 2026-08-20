@@ -1,0 +1,22 @@
+categories = ["Divide and Conquer", "Heap", "Binary Indexed Tree", "Segment Tree", "Line Sweep"]
+difficulty = "Hard"
+entrypoints = ["get_skyline"]
+id = 218
+link = "https://leetcode.com/problems/the-skyline-problem/description/"
+runs = []
+slug = "the-skyline-problem"
+title = "The Skyline Problem"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

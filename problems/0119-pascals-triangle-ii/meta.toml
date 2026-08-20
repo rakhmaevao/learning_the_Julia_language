@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["get_pascal_row"]
+id = 119
+link = "https://leetcode.com/problems/pascals-triangle-ii/description/"
+runs = []
+slug = "pascals-triangle-ii"
+title = "Pascal's Triangle II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

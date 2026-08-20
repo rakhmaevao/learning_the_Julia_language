@@ -1,0 +1,22 @@
+categories = ["Array", "Math", "Geometry"]
+difficulty = "Easy"
+entrypoints = ["check_straight_line"]
+id = 1232
+link = "https://leetcode.com/problems/check-if-it-is-a-straight-line/description/"
+runs = []
+slug = "check-if-it-is-a-straight-line"
+title = "Check If It Is a Straight Line"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

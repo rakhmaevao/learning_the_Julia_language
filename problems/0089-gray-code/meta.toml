@@ -1,0 +1,22 @@
+categories = ["Backtracking"]
+difficulty = "Medium"
+entrypoints = ["gray_code"]
+id = 89
+link = "https://leetcode.com/problems/gray-code/description/"
+runs = []
+slug = "gray-code"
+title = "Gray Code"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-02"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

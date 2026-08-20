@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["shift_grid"]
+id = 1260
+link = "https://leetcode.com/problems/shift-2d-grid/description/"
+runs = []
+slug = "shift-2-d-grid"
+title = "Shift 2D Grid"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-11-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

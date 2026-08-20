@@ -1,0 +1,22 @@
+categories = ["Array", "Dynamic Programming"]
+difficulty = "Easy"
+entrypoints = ["min_cost_climbing_stairs"]
+id = 746
+link = "https://leetcode.com/problems/min-cost-climbing-stairs/description/"
+runs = []
+slug = "min-cost-climbing-stairs"
+title = "Min Cost Climbing Stairs"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

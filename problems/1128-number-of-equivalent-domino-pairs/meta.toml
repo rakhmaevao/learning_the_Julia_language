@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["num_equiv_domino_pairs"]
+id = 1128
+link = "https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/"
+runs = []
+slug = "number-of-equivalent-domino-pairs"
+title = "Number of Equivalent Domino Pairs"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

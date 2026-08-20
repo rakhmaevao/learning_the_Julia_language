@@ -1,0 +1,22 @@
+categories = ["Two Pointers", "Sliding Window"]
+difficulty = "Medium"
+entrypoints = ["check_inclusion"]
+id = 567
+link = "https://leetcode.com/problems/permutation-in-string/description/"
+runs = []
+slug = "permutation-in-string"
+title = "Permutation in String"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

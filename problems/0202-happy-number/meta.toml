@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Easy"
+entrypoints = ["ishappy"]
+id = 202
+link = "https://leetcode.com/problems/happy-number/description/"
+runs = []
+slug = "happy-number"
+title = "Happy Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

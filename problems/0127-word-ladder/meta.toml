@@ -1,0 +1,22 @@
+categories = ["Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["ladder_length"]
+id = 127
+link = "https://leetcode.com/problems/word-ladder/description/"
+runs = []
+slug = "word-ladder"
+title = "Word Ladder"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-07"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

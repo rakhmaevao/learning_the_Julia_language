@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Two Pointers", "Binary Search", "Sort"]
+difficulty = "Easy"
+entrypoints = ["intersection_of_arrays"]
+id = 350
+link = "https://leetcode.com/problems/intersection-of-two-arrays-ii/description/"
+runs = []
+slug = "intersection-of-two-arrays-ii"
+title = "Intersection of Two Arrays II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

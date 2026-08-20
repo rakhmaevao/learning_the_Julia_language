@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["good_nodes"]
+id = 1448
+link = "https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/"
+runs = []
+slug = "count-good-nodes-in-binary-tree"
+title = "Count Good Nodes in Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Jimmy Shen"
+date = "2020-08-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

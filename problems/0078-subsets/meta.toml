@@ -1,0 +1,22 @@
+categories = ["Array", "Backtracking", "Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["subsets"]
+id = 78
+link = "https://leetcode.com/problems/subsets/description/"
+runs = []
+slug = "subsets"
+title = "Subsets"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Jerry Ling"
+date = "2021-12-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

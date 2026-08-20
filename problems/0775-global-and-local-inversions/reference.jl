@@ -1,0 +1,14 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function is_ideal_permutation(A::Vector{Int})
+    m = A[end]
+    for i in length(A):-1:3
+        m = min(m, A[i])
+        if A[i - 2] > m
+            return false
+        end
+    end
+    return true
+end

@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["find_max_average"]
+id = 643
+link = "https://leetcode.com/problems/maximum-average-subarray-i/description/"
+runs = []
+slug = "maximum-average-subarray-i"
+title = "Maximum Average Subarray I"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-04"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

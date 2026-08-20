@@ -1,0 +1,22 @@
+categories = ["Backtracking"]
+difficulty = "Medium"
+entrypoints = ["letter_tile_possibilities"]
+id = 1079
+link = "https://leetcode.com/problems/letter-tile-possibilities/description/"
+runs = []
+slug = "letter-tile-possibilities"
+title = "Letter Tile Possibilities"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

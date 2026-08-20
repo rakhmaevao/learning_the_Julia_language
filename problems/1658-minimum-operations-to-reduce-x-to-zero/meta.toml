@@ -1,0 +1,22 @@
+categories = ["Two Pointers", "Binary Search", "Greedy"]
+difficulty = "Medium"
+entrypoints = ["min_operations"]
+id = 1658
+link = "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/"
+runs = []
+slug = "minimum-operations-to-reduce-x-to-zero"
+title = "Minimum Operations to Reduce X to Zero"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

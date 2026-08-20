@@ -1,0 +1,22 @@
+categories = ["Array", "Math"]
+difficulty = "Medium"
+entrypoints = ["corp_flight_bookings"]
+id = 1109
+link = "https://leetcode.com/problems/corporate-flight-bookings/description/"
+runs = []
+slug = "corporate-flight-bookings"
+title = "Corporate Flight Bookings"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-08-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

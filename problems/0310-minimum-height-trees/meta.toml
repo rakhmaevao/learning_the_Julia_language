@@ -1,0 +1,22 @@
+categories = ["Breadth-first Search", "Graph"]
+difficulty = "Medium"
+entrypoints = ["find_min_height_trees"]
+id = 310
+link = "https://leetcode.com/problems/minimum-height-trees/description/"
+runs = []
+slug = "minimum-height-trees"
+title = "Minimum Height Trees"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-03-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

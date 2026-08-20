@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["xor_queries"]
+id = 1310
+link = "https://leetcode.com/problems/xor-queries-of-a-subarray/description/"
+runs = []
+slug = "xor-queries-of-a-subarray"
+title = "XOR Queries of a Subarray"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

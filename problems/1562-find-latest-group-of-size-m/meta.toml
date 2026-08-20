@@ -1,0 +1,22 @@
+categories = ["Binary Search"]
+difficulty = "Medium"
+entrypoints = ["find_latest_step"]
+id = 1562
+link = "https://leetcode.com/problems/find-latest-group-of-size-m/description/"
+runs = []
+slug = "find-latest-group-of-size-m"
+title = "Find Latest Group of Size M"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

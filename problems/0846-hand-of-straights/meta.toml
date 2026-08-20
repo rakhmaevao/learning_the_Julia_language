@@ -1,0 +1,22 @@
+categories = ["Ordered Map"]
+difficulty = "Medium"
+entrypoints = ["is_n_straight_hand"]
+id = 846
+link = "https://leetcode.com/problems/hand-of-straights/description/"
+runs = []
+slug = "hand-of-straights"
+title = "Hand of Straights"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-09"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

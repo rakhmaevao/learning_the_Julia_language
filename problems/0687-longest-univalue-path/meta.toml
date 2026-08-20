@@ -1,0 +1,22 @@
+categories = ["Tree", "Recursion"]
+difficulty = "Medium"
+entrypoints = ["longest_univalue_path"]
+id = 687
+link = "https://leetcode.com/problems/longest-univalue-path/description/"
+runs = []
+slug = "longest-univalue-path"
+title = "Longest Univalue Path"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

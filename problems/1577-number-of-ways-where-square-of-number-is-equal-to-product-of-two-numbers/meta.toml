@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Medium"
+entrypoints = ["num_triplets"]
+id = 1577
+link = "https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/description/"
+runs = []
+slug = "number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers"
+title = "Number of Ways Where Square of Number Is Equal to Product of Two Numbers"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-27"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

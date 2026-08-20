@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Medium"
+entrypoints = ["query_string"]
+id = 1016
+link = "https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/description/"
+runs = []
+slug = "binary-string-with-substrings-representing-1-to-n"
+title = "Binary String With Substrings Representing 1 To N"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Bit Manipulation"]
+difficulty = "Easy"
+entrypoints = ["single_number_136"]
+id = 136
+link = "https://leetcode.com/problems/single-number/description/"
+runs = []
+slug = "single-number"
+title = "Single Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

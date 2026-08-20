@@ -1,0 +1,23 @@
+categories = ["Array", "Tree", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["build_tree_inpost"]
+id = 106
+link = "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/"
+reference_ok = false
+runs = []
+slug = "construct-binary-tree-from-inorder-and-postorder-traversal"
+title = "Construct Binary Tree from Inorder and Postorder Traversal"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-02"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

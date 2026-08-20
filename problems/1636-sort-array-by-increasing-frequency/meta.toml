@@ -1,0 +1,22 @@
+categories = ["Array", "Sort"]
+difficulty = "Easy"
+entrypoints = ["frequency_sort"]
+id = 1636
+link = "https://leetcode.com/problems/sort-array-by-increasing-frequency/description/"
+runs = []
+slug = "sort-array-by-increasing-frequency"
+title = "Sort Array by Increasing Frequency"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

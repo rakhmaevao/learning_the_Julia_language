@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Medium"
+entrypoints = ["repeated_string_match"]
+id = 686
+link = "https://leetcode.com/problems/repeated-string-match/description/"
+runs = []
+slug = "repeated-string-match"
+title = "Repeated String Match"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

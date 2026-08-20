@@ -1,0 +1,22 @@
+categories = ["Binary Search", "Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["calculate_minimum_hp"]
+id = 174
+link = "https://leetcode.com/problems/dungeon-game/description/"
+runs = []
+slug = "dungeon-game"
+title = "Dungeon Game"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

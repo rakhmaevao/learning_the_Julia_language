@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Union Find", "Graph"]
+difficulty = "Medium"
+entrypoints = ["regions_by_slashes"]
+id = 959
+link = "https://leetcode.com/problems/regions-cut-by-slashes/description/"
+runs = []
+slug = "regions-cut-by-slashes"
+title = "Regions Cut By Slashes"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-25"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

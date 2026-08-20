@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming", "Minimax"]
+difficulty = "Medium"
+entrypoints = ["is_ipv4", "is_ipv6", "valid_ip_address"]
+id = 486
+link = "https://leetcode.com/problems/predict-the-winner/description/"
+runs = []
+slug = "predict-the-winner"
+title = "Predict the Winner"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-05-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

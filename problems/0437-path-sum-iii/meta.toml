@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Medium"
+entrypoints = ["tree_path_sum"]
+id = 437
+link = "https://leetcode.com/problems/path-sum-iii/description/"
+runs = []
+slug = "path-sum-iii"
+title = "Path Sum III"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

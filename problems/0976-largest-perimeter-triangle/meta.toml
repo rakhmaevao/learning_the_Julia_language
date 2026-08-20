@@ -1,0 +1,22 @@
+categories = ["Math", "Sort"]
+difficulty = "Easy"
+entrypoints = ["largest_perimeter"]
+id = 976
+link = "https://leetcode.com/problems/largest-perimeter-triangle/description/"
+runs = []
+slug = "largest-perimeter-triangle"
+title = "Largest Perimeter Triangle"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

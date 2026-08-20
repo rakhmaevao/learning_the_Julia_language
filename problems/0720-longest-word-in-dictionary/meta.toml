@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Trie"]
+difficulty = "Easy"
+entrypoints = ["longest_common_word", "longest_common_word!"]
+id = 720
+link = "https://leetcode.com/problems/longest-word-in-dictionary/description/"
+runs = []
+slug = "longest-word-in-dictionary"
+title = "Longest Word in Dictionary"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

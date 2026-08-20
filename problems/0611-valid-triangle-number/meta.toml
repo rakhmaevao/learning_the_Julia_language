@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["triangle_number"]
+id = 611
+link = "https://leetcode.com/problems/valid-triangle-number/description/"
+runs = []
+slug = "valid-triangle-number"
+title = "Valid Triangle Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

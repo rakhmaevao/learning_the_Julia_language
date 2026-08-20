@@ -1,0 +1,22 @@
+categories = ["Greedy"]
+difficulty = "Medium"
+entrypoints = ["min_operations1558"]
+id = 1558
+link = "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/description/"
+runs = []
+slug = "minimum-numbers-of-function-calls-to-make-target-array"
+title = "Minimum Numbers of Function Calls to Make Target Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

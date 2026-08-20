@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search"]
+difficulty = "Medium"
+entrypoints = ["max_ancestor_diff"]
+id = 1026
+link = "https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/"
+runs = []
+slug = "maximum-difference-between-node-and-ancestor"
+title = "Maximum Difference Between Node and Ancestor"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-04-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

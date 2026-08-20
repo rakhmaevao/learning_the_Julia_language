@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["num_ways"]
+id = 1639
+link = "https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/"
+runs = []
+slug = "number-of-ways-to-form-a-target-string-given-a-dictionary"
+title = "Number of Ways to Form a Target String Given a Dictionary"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

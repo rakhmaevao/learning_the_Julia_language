@@ -1,0 +1,22 @@
+categories = ["Binary Search"]
+difficulty = "Medium"
+entrypoints = ["single_non_duplicate"]
+id = 540
+link = "https://leetcode.com/problems/single-element-in-a-sorted-array/description/"
+runs = []
+slug = "single-element-in-a-sorted-array"
+title = "Single Element in a Sorted Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

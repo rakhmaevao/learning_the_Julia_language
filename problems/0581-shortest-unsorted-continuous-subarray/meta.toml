@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["find_unsorted_subarray"]
+id = 581
+link = "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/"
+runs = []
+slug = "shortest-unsorted-continuous-subarray"
+title = "Shortest Unsorted Continuous Subarray"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

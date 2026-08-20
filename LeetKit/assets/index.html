@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JuliaLeet — задачи LeetCode на Julia</title>
+<style>
+:root{
+  --bg:#12141a; --bg2:#1a1d26; --bg3:#232734; --line:#2e3342;
+  --fg:#e6e8ee; --dim:#98a0b3; --acc:#7aa2f7; --acc2:#9d7cd8;
+  --easy:#3fb950; --medium:#d29922; --hard:#f85149;
+  --ok:#3fb950; --err:#f85149;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+header{padding:16px 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:16px;
+  position:sticky;top:0;background:var(--bg);z-index:20}
+h1{font-size:18px;margin:0;letter-spacing:.5px}
+h1 span{color:var(--acc2)}
+.tabs{display:flex;gap:4px;margin-left:auto}
+.tab{padding:6px 14px;border-radius:8px;cursor:pointer;color:var(--dim);border:1px solid transparent}
+.tab.active{background:var(--bg3);color:var(--fg);border-color:var(--line)}
+main{padding:20px 24px;max-width:1400px;margin:0 auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:20px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .k{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.6px}
+.card .v{font-size:24px;font-weight:600;margin-top:4px}
+.bar{height:6px;background:var(--bg3);border-radius:4px;margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:4px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+input,select,textarea,button{font:inherit;color:var(--fg);background:var(--bg2);
+  border:1px solid var(--line);border-radius:8px;padding:7px 10px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--acc)}
+button{cursor:pointer}
+button:hover{background:var(--bg3)}
+button.primary{background:var(--acc);color:#0d1117;border-color:var(--acc);font-weight:600}
+button.primary:hover{filter:brightness(1.1)}
+button:disabled{opacity:.5;cursor:default}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.5px;cursor:pointer;user-select:none;
+  position:sticky;top:57px;background:var(--bg);z-index:5}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--bg2)}
+.st{width:22px;text-align:center;font-size:15px}
+.st.solved{color:var(--ok)}
+.st.attempted{color:var(--medium)}
+.st.todo{color:var(--dim)}
+.kv .st{width:auto;display:inline;text-align:left}
+.num{color:var(--dim);width:64px;font-variant-numeric:tabular-nums}
+.diff{font-weight:600}
+.diff.Easy{color:var(--easy)} .diff.Medium{color:var(--medium)} .diff.Hard{color:var(--hard)}
+.tags{display:flex;gap:4px;flex-wrap:wrap}
+.tag{background:var(--bg3);border-radius:20px;padding:1px 9px;font-size:11px;color:var(--dim)}
+.muted{color:var(--dim)}
+.pager{display:flex;gap:8px;align-items:center;justify-content:center;padding:16px}
+/* календарь */
+.cal{overflow-x:auto;padding-bottom:8px}
+.calgrid{display:flex;gap:3px}
+.calweek{display:flex;flex-direction:column;gap:3px}
+.day{width:13px;height:13px;border-radius:3px;background:var(--bg3);position:relative}
+.day.lvl0{background:#20242e}
+.day.act{outline:1px solid var(--line)}
+.day.Easy{background:var(--easy)} .day.Medium{background:var(--medium)} .day.Hard{background:var(--hard)}
+.day.multi{background:linear-gradient(135deg,var(--easy),var(--medium),var(--hard))}
+.day.today{outline:1.5px solid var(--acc);outline-offset:1px}
+.calmonths{display:flex;gap:3px;color:var(--dim);font-size:11px;margin-bottom:4px;height:14px}
+.legend{display:flex;gap:14px;align-items:center;color:var(--dim);font-size:12px;margin-top:10px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+/* модалка */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;z-index:50}
+.overlay.on{display:block}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(980px,96vw);background:var(--bg);
+  border-left:1px solid var(--line);overflow-y:auto;padding:20px 26px 60px}
+.drawer h2{margin:0 0 6px;font-size:20px}
+.dtabs{display:flex;gap:6px;margin:16px 0 12px;border-bottom:1px solid var(--line)}
+.dtab{padding:7px 12px;cursor:pointer;color:var(--dim);border-bottom:2px solid transparent}
+.dtab.active{color:var(--fg);border-bottom-color:var(--acc)}
+.pane{display:none} .pane.on{display:block}
+.statement{line-height:1.65}
+.statement pre,pre.code{background:var(--bg2);border:1px solid var(--line);border-radius:8px;
+  padding:12px;overflow-x:auto;font:12.5px/1.55 "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+.statement code{background:var(--bg3);border-radius:4px;padding:1px 5px;font-family:ui-monospace,monospace;font-size:12.5px}
+.statement img{max-width:100%}
+.path{font-family:ui-monospace,monospace;font-size:12px;background:var(--bg2);border:1px solid var(--line);
+  border-radius:8px;padding:8px 10px;display:flex;gap:10px;align-items:center;justify-content:space-between}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.log{white-space:pre-wrap;font:12.5px/1.5 ui-monospace,monospace;background:#0d1117;border:1px solid var(--line);
+  border-radius:8px;padding:12px;max-height:340px;overflow:auto;margin-top:12px}
+.log.ok{border-color:var(--ok)} .log.err{border-color:var(--err)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px;margin:10px 0}
+.kv b{color:var(--dim);font-weight:400}
+.spinner{display:inline-block;width:13px;height:13px;border:2px solid var(--dim);border-top-color:transparent;
+  border-radius:50%;animation:sp .7s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes sp{to{transform:rotate(360deg)}}
+.tip{position:fixed;background:var(--bg3);border:1px solid var(--line);border-radius:8px;padding:7px 10px;
+  font-size:12px;pointer-events:none;z-index:99;display:none;max-width:320px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Julia<span>Leet</span></h1>
+  <span class="muted" id="hdr-progress"></span>
+  <div class="tabs">
+    <div class="tab active" data-view="problems">Задачи</div>
+    <div class="tab" data-view="progress">Прогресс</div>
+  </div>
+</header>
+
+<main>
+  <section id="view-problems">
+    <div class="cards" id="cards"></div>
+    <div class="filters">
+      <input id="f-search" placeholder="Поиск по номеру или названию…" style="min-width:260px">
+      <select id="f-diff"><option value="">Любая сложность</option><option>Easy</option><option>Medium</option><option>Hard</option></select>
+      <select id="f-status"><option value="">Любой статус</option><option value="todo">Не решено</option><option value="attempted">В работе</option><option value="solved">Решено</option></select>
+      <select id="f-tag"><option value="">Любая тема</option></select>
+      <select id="f-size"><option>50</option><option>100</option><option>250</option><option value="100000">все</option></select>
+      <button id="f-reset">Сбросить</button>
+      <button id="f-random">🎲 Случайная</button>
+      <span class="muted" id="count"></span>
+    </div>
+    <table>
+      <thead><tr>
+        <th data-sort="status" class="st"></th>
+        <th data-sort="id" class="num">#</th>
+        <th data-sort="title">Название</th>
+        <th data-sort="difficulty">Сложность</th>
+        <th>Темы</th>
+        <th data-sort="attempts">Попыток</th>
+        <th data-sort="best_time_ns">Время</th>
+        <th data-sort="solved_at">Решено</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="pager" id="pager"></div>
+  </section>
+
+  <section id="view-progress" style="display:none">
+    <div class="cards" id="cards2"></div>
+    <div class="card">
+      <div class="k">Календарь решений</div>
+      <div style="display:flex;gap:10px;align-items:center;margin:10px 0">
+        <select id="cal-year"></select>
+        <span class="muted" id="cal-summary"></span>
+      </div>
+      <div class="cal"><div class="calmonths" id="calmonths"></div><div class="calgrid" id="calgrid"></div></div>
+      <div class="legend">
+        <span><i style="background:#20242e"></i>нет решений</span>
+        <span><i style="background:var(--easy)"></i>Easy</span>
+        <span><i style="background:var(--medium)"></i>Medium</span>
+        <span><i style="background:var(--hard)"></i>Hard</span>
+        <span><i style="background:linear-gradient(135deg,var(--easy),var(--medium),var(--hard))"></i>несколько</span>
+      </div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <div class="k">История</div>
+      <table><tbody id="history"></tbody></table>
+    </div>
+  </section>
+</main>
+
+<div class="overlay" id="overlay"><div class="drawer" id="drawer"></div></div>
+<div class="tip" id="tip"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const el = (t, cls, html) => { const e = document.createElement(t); if (cls) e.className = cls; if (html !== undefined) e.innerHTML = html; return e; };
+const api = async (url, opts) => { const r = await fetch(url, opts); if (!r.ok) { const t = await r.text(); throw new Error(t); } return r.json(); };
+const post = (url, body) => api(url, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body||{})});
+
+let PROBLEMS = [], STATS = null, SORT = {key:'id', dir:1}, PAGE = 1;
+
+const fmtTime = ns => { ns = Number(ns)||0; if (!ns) return '—';
+  if (ns < 1e3) return ns + ' ns'; if (ns < 1e6) return (ns/1e3).toFixed(1) + ' µs';
+  if (ns < 1e9) return (ns/1e6).toFixed(1) + ' ms'; return (ns/1e9).toFixed(2) + ' s'; };
+const fmtBytes = b => { b = Number(b)||0; if (!b) return '—'; const u = ['B','KiB','MiB','GiB']; let i = 0;
+  while (b >= 1024 && i < u.length-1) { b /= 1024; i++; } return b.toFixed(1) + ' ' + u[i]; };
+const stIcon = s => s === 'solved' ? '✔' : s === 'attempted' ? '~' : '·';
+const plural = (n, one, few, many) => { const a = Math.abs(n) % 100, b = a % 10;
+  return n + ' ' + (a > 10 && a < 20 ? many : b > 1 && b < 5 ? few : b === 1 ? one : many); };
+
+async function loadAll() {
+  const [p, s] = await Promise.all([api('/api/problems'), api('/api/stats')]);
+  PROBLEMS = p.problems; STATS = s;
+  fillTags(); renderCards(); renderTable(); renderProgress();
+}
+
+function fillTags() {
+  const tags = new Set();
+  PROBLEMS.forEach(p => (p.categories||[]).forEach(c => tags.add(c)));
+  const sel = $('#f-tag'); const cur = sel.value;
+  sel.innerHTML = '<option value="">Любая тема</option>' +
+    [...tags].sort().map(t => `<option>${t}</option>`).join('');
+  sel.value = cur;
+}
+
+function diffCard(d) {
+  const r = (STATS.by_difficulty||{})[d] || {total:0, solved:0, attempted:0};
+  const pct = r.total ? Math.round(100*r.solved/r.total) : 0;
+  const color = d === 'Easy' ? 'var(--easy)' : d === 'Medium' ? 'var(--medium)' : 'var(--hard)';
+  return `<div class="card"><div class="k" style="color:${color}">${d}</div>
+    <div class="v">${r.solved}<span class="muted" style="font-size:14px"> / ${r.total}</span></div>
+    <div class="bar"><i style="width:${pct}%;background:${color}"></i></div></div>`;
+}
+
+function cardsHtml() {
+  const pct = STATS.total ? Math.round(100*STATS.solved/STATS.total) : 0;
+  return `<div class="card"><div class="k">Решено всего</div>
+      <div class="v">${STATS.solved}<span class="muted" style="font-size:14px"> / ${STATS.total}</span></div>
+      <div class="bar"><i style="width:${pct}%;background:var(--acc)"></i></div></div>`
+    + diffCard('Easy') + diffCard('Medium') + diffCard('Hard')
+    + `<div class="card"><div class="k">Серия</div><div class="v">${plural(STATS.streak_current, 'день', 'дня', 'дней')}</div>
+      <div class="muted" style="font-size:12px">лучшая: ${plural(STATS.streak_best, 'день', 'дня', 'дней')}</div></div>`;
+}
+
+function renderCards() {
+  $('#cards').innerHTML = cardsHtml();
+  $('#cards2').innerHTML = cardsHtml();
+  $('#hdr-progress').textContent = `${STATS.solved} из ${STATS.total} решено`;
+}
+
+function filtered() {
+  const q = $('#f-search').value.trim().toLowerCase();
+  const d = $('#f-diff').value, s = $('#f-status').value, t = $('#f-tag').value;
+  let list = PROBLEMS.filter(p =>
+    (!d || p.difficulty === d) && (!s || p.status === s) &&
+    (!t || (p.categories||[]).includes(t)) &&
+    (!q || String(p.id).includes(q) || p.title.toLowerCase().includes(q) || (p.slug||'').includes(q)));
+  const k = SORT.key, dir = SORT.dir;
+  const rank = {solved:2, attempted:1, todo:0};
+  list.sort((a, b) => {
+    let x = a[k], y = b[k];
+    if (k === 'status') { x = rank[x]; y = rank[y]; }
+    if (k === 'difficulty') { const r = {Easy:0, Medium:1, Hard:2}; x = r[x] ?? 3; y = r[y] ?? 3; }
+    if (typeof x === 'string') return dir * x.localeCompare(y);
+    return dir * ((x||0) - (y||0));
+  });
+  return list;
+}
+
+function renderTable() {
+  const list = filtered();
+  const size = Number($('#f-size').value);
+  const pages = Math.max(1, Math.ceil(list.length / size));
+  PAGE = Math.min(PAGE, pages);
+  const page = list.slice((PAGE-1)*size, PAGE*size);
+  const tb = $('#rows'); tb.innerHTML = '';
+  for (const p of page) {
+    const tr = el('tr');
+    tr.innerHTML = `<td class="st ${p.status}">${stIcon(p.status)}</td>
+      <td class="num">${p.id}</td>
+      <td>${p.title}</td>
+      <td class="diff ${p.difficulty}">${p.difficulty}</td>
+      <td><div class="tags">${(p.categories||[]).slice(0,3).map(c=>`<span class="tag">${c}</span>`).join('')}</div></td>
+      <td class="muted">${p.attempts||0}</td>
+      <td class="muted">${fmtTime(p.best_time_ns)}</td>
+      <td class="muted">${p.solved_at||''}</td>`;
+    tr.onclick = () => openProblem(p.id);
+    tb.appendChild(tr);
+  }
+  $('#count').textContent = plural(list.length, 'задача', 'задачи', 'задач');
+  const pg = $('#pager'); pg.innerHTML = '';
+  if (pages > 1) {
+    const mk = (label, target, dis) => { const b = el('button', '', label); b.disabled = dis;
+      b.onclick = () => { PAGE = target; renderTable(); window.scrollTo({top:0, behavior:'smooth'}); }; return b; };
+    pg.appendChild(mk('←', PAGE-1, PAGE<=1));
+    pg.appendChild(el('span', 'muted', `страница ${PAGE} из ${pages}`));
+    pg.appendChild(mk('→', PAGE+1, PAGE>=pages));
+  }
+}
+
+/* ---------- карточка задачи ---------- */
+let CUR = null;
+
+async function openProblem(id) {
+  const d = await api('/api/problems/' + id);
+  CUR = d;
+  $('#overlay').classList.add('on');
+  renderDrawer();
+}
+
+function closeDrawer() { $('#overlay').classList.remove('on'); CUR = null; }
+
+function renderDrawer(log) {
+  const d = CUR;
+  const dr = $('#drawer');
+  dr.innerHTML = `
+    <div style="display:flex;align-items:start;gap:12px">
+      <div style="flex:1">
+        <h2>${d.id}. ${d.title}</h2>
+        <div><span class="diff ${d.difficulty}">${d.difficulty}</span>
+          <span class="muted"> · ${(d.categories||[]).join(', ')}</span></div>
+      </div>
+      <button onclick="closeDrawer()">✕</button>
+    </div>
+    <div class="kv">
+      <b>Статус</b><span class="st ${d.status}">${stIcon(d.status)} ${({solved:'решено',attempted:'в работе',todo:'не решено'})[d.status]}</span>
+      <b>Решено</b><span>${d.solved_at || '—'}${d.first_solved_at && d.first_solved_at !== d.solved_at ? ' <span class="muted">(впервые ' + d.first_solved_at + ')</span>' : ''}</span>
+      <b>Попыток</b><span>${d.attempts||0}</span>
+      <b>Лучшее время</b><span>${fmtTime(d.best_time_ns)} <span class="muted">· память ${fmtBytes(d.best_bytes)}</span></span>
+      <b>LeetCode</b><span><a href="${d.link}" target="_blank" rel="noopener">${d.link}</a></span>
+    </div>
+    <div class="path"><span id="dirpath">${d.dir}</span>
+      <span style="display:flex;gap:6px">
+        <button onclick="copyPath()">Копировать путь</button>
+        <button onclick="openFolder()">Открыть каталог</button>
+      </span></div>
+    <div class="actions">
+      <button class="primary" id="btn-run">▶ Запустить тесты</button>
+      <button id="btn-run-ref">Проверить эталон</button>
+      <button id="btn-solve">Отметить решённой</button>
+      <button id="btn-reset">Сбросить решение</button>
+      <select id="btn-status">
+        <option value="">— сменить статус —</option>
+        <option value="todo">не решено</option>
+        <option value="attempted">в работе</option>
+        <option value="solved">решено</option>
+      </select>
+    </div>
+    <div id="runlog"></div>
+    <div class="dtabs">
+      <div class="dtab active" data-pane="statement">Условие</div>
+      <div class="dtab" data-pane="solution">Моё решение</div>
+      <div class="dtab" data-pane="test">Тесты</div>
+      <div class="dtab" data-pane="reference">Эталон${d.reference_ok === false ? ' ⚠' : ' 🙈'}</div>
+      <div class="dtab" data-pane="notes">Заметки</div>
+      <div class="dtab" data-pane="runs">Прогоны</div>
+    </div>
+    <div class="pane on statement" id="pane-statement">${d.statement_html}</div>
+    <pre class="pane code" id="pane-solution">${esc(d.solution)}</pre>
+    <pre class="pane code" id="pane-test">${esc(d.test)}</pre>
+    <div class="pane" id="pane-reference">
+      ${d.reference_ok === false ? '<p class="muted">⚠ Эталон из upstream не проходит собственные тесты на текущей версии Julia. Условие и тесты рабочие — решайте сами.</p>' : ''}
+      <button onclick="this.nextElementSibling.style.display='block';this.style.display='none'">Показать эталонное решение</button>
+      <pre class="code" style="display:none">${esc(d.reference)}</pre>
+    </div>
+    <div class="pane" id="pane-notes">
+      <textarea id="notes" style="width:100%;height:140px">${esc(d.notes||'')}</textarea>
+      <div class="actions"><button class="primary" id="btn-notes">Сохранить заметки</button></div>
+    </div>
+    <div class="pane" id="pane-runs">${runsTable(d.runs||[])}</div>`;
+
+  dr.querySelectorAll('.dtab').forEach(t => t.onclick = () => {
+    dr.querySelectorAll('.dtab').forEach(x => x.classList.remove('active'));
+    dr.querySelectorAll('.pane').forEach(x => x.classList.remove('on'));
+    t.classList.add('active');
+    $('#pane-' + t.dataset.pane).classList.add('on');
+  });
+  $('#btn-run').onclick = () => runTests('solution');
+  $('#btn-run-ref').onclick = () => runTests('reference');
+  $('#btn-solve').onclick = async () => { await post(`/api/problems/${d.id}/solve`, {}); await refresh(d.id); };
+  $('#btn-reset').onclick = async () => {
+    if (!confirm('Вернуть solution.jl к шаблону? Текущий файл сохранится как solution.jl.bak')) return;
+    await post(`/api/problems/${d.id}/reset`, {}); await refresh(d.id);
+  };
+  $('#btn-status').onchange = async (e) => {
+    if (!e.target.value) return;
+    await post(`/api/problems/${d.id}/status`, {status: e.target.value}); await refresh(d.id);
+  };
+  $('#btn-notes').onclick = async () => {
+    await post(`/api/problems/${d.id}/notes`, {notes: $('#notes').value}); await refresh(d.id);
+    alert('Заметки сохранены');
+  };
+  if (log) $('#runlog').innerHTML = log;
+}
+
+const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+function runsTable(runs) {
+  if (!runs.length) return '<p class="muted">Прогонов ещё не было.</p>';
+  return '<table><thead><tr><th>Когда</th><th>Режим</th><th>Итог</th><th>Тестов</th><th>Время</th><th>Память</th></tr></thead><tbody>'
+    + runs.slice().reverse().map(r => `<tr><td>${r.at.replace('T',' ')}</td><td class="muted">${r.mode||''}</td>
+      <td style="color:${r.passed?'var(--ok)':'var(--err)'}">${r.passed?'✔ пройдено':'✘ ошибки'}</td>
+      <td class="muted">${r.n_pass}✓ ${r.n_fail}✗ ${r.n_error}!</td>
+      <td class="muted">${fmtTime(r.time_ns)}</td><td class="muted">${fmtBytes(r.bytes)}</td></tr>`).join('')
+    + '</tbody></table>';
+}
+
+async function runTests(mode) {
+  const id = CUR.id;
+  $('#runlog').innerHTML = `<div class="log"><span class="spinner"></span>Запуск тестов (${mode})…</div>`;
+  try {
+    const r = await post(`/api/problems/${id}/run`, {mode});
+    const res = r.result;
+    const head = res.passed
+      ? `✔ Все тесты пройдены (${res.n_pass}). Время: ${fmtTime(res.time_ns)}, память: ${fmtBytes(res.bytes)}`
+      : `✘ Не пройдено: ок=${res.n_pass}, провал=${res.n_fail}, ошибок=${res.n_error}${res.timed_out ? ' (таймаут)' : ''}`;
+    const body = [res.error || '', ...(res.details||[]), r.log || ''].filter(Boolean).join('\n');
+    const html = `<div class="log ${res.passed?'ok':'err'}"><b>${head}</b>\n\n${esc(body)}</div>`;
+    await refresh(id, html);
+  } catch (e) {
+    $('#runlog').innerHTML = `<div class="log err">Ошибка запуска: ${esc(String(e))}</div>`;
+  }
+}
+
+async function refresh(id, log) {
+  const [d, s, p] = await Promise.all([api('/api/problems/' + id), api('/api/stats'), api('/api/problems')]);
+  CUR = d; STATS = s; PROBLEMS = p.problems;
+  renderCards(); renderTable(); renderProgress(); renderDrawer(log);
+}
+
+function copyPath() {
+  navigator.clipboard.writeText(CUR.dir).then(() => {
+    const b = event.target; const t = b.textContent; b.textContent = 'Скопировано!';
+    setTimeout(() => b.textContent = t, 1200);
+  });
+}
+async function openFolder() { await post(`/api/problems/${CUR.id}/open`, {}); }
+
+/* ---------- календарь ---------- */
+function renderProgress() {
+  const cal = STATS.calendar || {}, act = STATS.activity || {};
+  const years = new Set(Object.keys(cal).map(d => d.slice(0,4)));
+  years.add(String(new Date().getFullYear()));
+  const sel = $('#cal-year'); const prev = sel.value;
+  sel.innerHTML = [...years].sort().reverse().map(y => `<option>${y}</option>`).join('');
+  sel.value = prev && [...years].includes(prev) ? prev : String(new Date().getFullYear());
+  drawCalendar(sel.value, cal, act);
+  sel.onchange = () => drawCalendar(sel.value, cal, act);
+
+  const days = Object.keys(cal).sort().reverse();
+  $('#history').innerHTML = days.slice(0, 30).map(day =>
+    `<tr><td style="width:110px;color:var(--acc)">${day}</td><td>` +
+    cal[day].map(i => `<a href="#" onclick="openProblem(${i.id});return false">${i.id}. ${i.title}</a>
+      <span class="diff ${i.difficulty}" style="font-size:12px">${i.difficulty}</span>`).join(' · ') +
+    '</td></tr>').join('') || '<tr><td class="muted">Пока пусто — решите первую задачу!</td></tr>';
+}
+
+function drawCalendar(year, cal, act) {
+  const start = new Date(Number(year), 0, 1), end = new Date(Number(year), 11, 31);
+  const grid = $('#calgrid'), months = $('#calmonths');
+  grid.innerHTML = ''; months.innerHTML = '';
+  const d = new Date(start);
+  d.setDate(d.getDate() - ((d.getDay() + 6) % 7));   // выравниваем на понедельник
+  let solvedCount = 0;
+  const monthNames = ['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'];
+  let lastMonth = -1;
+  while (d <= end) {
+    const week = el('div', 'calweek');
+    const firstOfWeek = new Date(d);
+    for (let i = 0; i < 7; i++) {
+      const iso = d.toISOString().slice(0,10);
+      const cell = el('div', 'day lvl0');
+      if (iso === STATS.today) cell.classList.add('today');
+      const items = cal[iso];
+      if (d < start || d > end) cell.style.visibility = 'hidden';
+      if (items && items.length) {
+        solvedCount += items.length;
+        const diffs = new Set(items.map(i => i.difficulty));
+        cell.className = 'day ' + (diffs.size > 1 ? 'multi' : [...diffs][0]);
+      } else if (act[iso]) {
+        cell.className = 'day lvl0 act';
+      }
+      cell.dataset.iso = iso;
+      cell.onmouseenter = ev => showTip(ev, iso, items, act[iso]);
+      cell.onmouseleave = hideTip;
+      week.appendChild(cell);
+      d.setDate(d.getDate() + 1);
+    }
+    grid.appendChild(week);
+    const m = firstOfWeek.getMonth();
+    const lbl = el('div', '', m !== lastMonth && firstOfWeek.getDate() <= 7 ? monthNames[m] : '');
+    lbl.style.width = '13px'; lbl.style.flex = '0 0 13px'; lbl.style.overflow = 'visible';
+    if (m !== lastMonth && firstOfWeek.getDate() <= 7) lastMonth = m;
+    months.appendChild(lbl);
+  }
+  $('#cal-summary').textContent = plural(solvedCount, 'решение', 'решения', 'решений') + ' за ' + year;
+}
+
+function showTip(ev, iso, items, runs) {
+  const tip = $('#tip');
+  let html = `<b>${iso}</b>`;
+  if (items && items.length) html += '<br>' + items.map(i => `${i.id}. ${i.title} (${i.difficulty})`).join('<br>');
+  else html += '<br><span style="color:var(--dim)">' + (runs ? `прогонов тестов: ${runs}` : 'нет решений') + '</span>';
+  tip.innerHTML = html;
+  tip.style.display = 'block';
+  tip.style.left = Math.min(ev.clientX + 12, window.innerWidth - 340) + 'px';
+  tip.style.top = (ev.clientY + 14) + 'px';
+}
+function hideTip() { $('#tip').style.display = 'none'; }
+
+/* ---------- события ---------- */
+document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
+  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active');
+  $('#view-problems').style.display = t.dataset.view === 'problems' ? '' : 'none';
+  $('#view-progress').style.display = t.dataset.view === 'progress' ? '' : 'none';
+});
+['f-search','f-diff','f-status','f-tag','f-size'].forEach(id =>
+  $('#' + id).addEventListener('input', () => { PAGE = 1; renderTable(); }));
+$('#f-reset').onclick = () => { ['f-search','f-diff','f-status','f-tag'].forEach(id => $('#' + id).value = '');
+  PAGE = 1; renderTable(); };
+$('#f-random').onclick = () => { const list = filtered().filter(p => p.status !== 'solved');
+  const pool = list.length ? list : filtered();
+  if (pool.length) openProblem(pool[Math.floor(Math.random()*pool.length)].id); };
+document.querySelectorAll('th[data-sort]').forEach(th => th.onclick = () => {
+  const k = th.dataset.sort;
+  SORT = {key: k, dir: SORT.key === k ? -SORT.dir : 1};
+  renderTable();
+});
+$('#overlay').onclick = e => { if (e.target.id === 'overlay') closeDrawer(); };
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+loadAll();
+</script>
+</body>
+</html>

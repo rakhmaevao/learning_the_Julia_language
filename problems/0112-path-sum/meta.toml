@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search"]
+difficulty = "Easy"
+entrypoints = ["has_path_sum"]
+id = 112
+link = "https://leetcode.com/problems/path-sum/description/"
+runs = []
+slug = "path-sum"
+title = "Path Sum"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

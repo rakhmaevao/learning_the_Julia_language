@@ -1,0 +1,22 @@
+categories = ["Math", "Dynamic Programming"]
+difficulty = "Easy"
+entrypoints = ["divisor_game"]
+id = 1025
+link = "https://leetcode.com/problems/divisor-game/description/"
+runs = []
+slug = "divisor-game"
+title = "Divisor Game"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-04-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

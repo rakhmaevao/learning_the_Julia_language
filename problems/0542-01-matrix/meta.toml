@@ -1,0 +1,22 @@
+categories = ["Depth-first Search", "Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["update_matrix"]
+id = 542
+link = "https://leetcode.com/problems/01-matrix/description/"
+runs = []
+slug = "01-matrix"
+title = "01 Matrix"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

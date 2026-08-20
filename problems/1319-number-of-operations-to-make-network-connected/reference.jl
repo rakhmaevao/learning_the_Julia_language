@@ -1,0 +1,24 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function make_connected(n::Int, connections::Vector{Vector{Int}})
+    if length(connections) < n - 1
+        return -1
+    end
+    father = collect(1:n)
+    find_root(u::Int)::Int = (father[u] == u) ? u : (father[u] = find_root(father[u]))
+    issame_root(u::Int, v::Int)::Bool = find_root(u) == find_root(v)
+    function merge(u::Int, v::Int)
+        u_root = find_root(u)
+        v_root = find_root(v)
+        if u_root != v_root
+            n -= 1
+            father[u_root] = v_root
+        end
+    end
+    for connection in connections
+        merge(connection[1], connection[2])
+    end
+    return n - 1
+end

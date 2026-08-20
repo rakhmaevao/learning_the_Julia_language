@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["word_break_bfs", "word_break"]
+id = 139
+link = "https://leetcode.com/problems/word-break/description/"
+runs = []
+slug = "word-break"
+title = "Word Break"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

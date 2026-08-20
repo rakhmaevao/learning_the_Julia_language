@@ -1,0 +1,22 @@
+categories = ["Stack", "Tree"]
+difficulty = "Medium"
+entrypoints = ["postorder_traversal"]
+id = 145
+link = "https://leetcode.com/problems/binary-tree-postorder-traversal/description/"
+runs = []
+slug = "binary-tree-postorder-traversal"
+title = "Binary Tree Postorder Traversal"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

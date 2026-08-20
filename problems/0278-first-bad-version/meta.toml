@@ -1,0 +1,22 @@
+categories = ["Binary Search"]
+difficulty = "Easy"
+entrypoints = ["first_bad_version"]
+id = 278
+link = "https://leetcode.com/problems/first-bad-version/description/"
+runs = []
+slug = "first-bad-version"
+title = "First Bad Version"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

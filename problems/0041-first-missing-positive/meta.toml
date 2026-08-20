@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Hard"
+entrypoints = ["first_missing_positive"]
+id = 41
+link = "https://leetcode.com/problems/first-missing-positive/description/"
+runs = []
+slug = "first-missing-positive"
+title = "First Missing Positive"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-03-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

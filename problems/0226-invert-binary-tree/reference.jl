@@ -1,0 +1,19 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function invert_tree!(root::Union{TreeNode{Int},Nothing})::Union{TreeNode,Nothing}
+    isnothing(root) && return nothing
+    queue = [root]
+    while !isempty(queue)
+        node = popfirst!(queue)
+        if !isnothing(node.left)
+            push!(queue, node.left)
+        end
+        if !isnothing(node.right)
+            push!(queue, node.right)
+        end
+        node.left, node.right = node.right, node.left
+    end
+    return root
+end

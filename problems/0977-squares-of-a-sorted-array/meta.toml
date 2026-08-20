@@ -1,0 +1,22 @@
+categories = ["Array", "Two Pointers"]
+difficulty = "Easy"
+entrypoints = ["squares_of_a_sorted_array"]
+id = 977
+link = "https://leetcode.com/problems/squares-of-a-sorted-array/description/"
+runs = []
+slug = "squares-of-a-sorted-array"
+title = "Squares of a Sorted Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-19"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

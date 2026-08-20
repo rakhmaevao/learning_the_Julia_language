@@ -1,0 +1,22 @@
+categories = ["Array", "Two Pointers"]
+difficulty = "Medium"
+entrypoints = ["num_subarray_productLess_than_k"]
+id = 713
+link = "https://leetcode.com/problems/subarray-product-less-than-k/description/"
+runs = []
+slug = "subarray-product-less-than-k"
+title = "Subarray Product Less Than K"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Array", "Two Pointers"]
+difficulty = "Medium"
+entrypoints = ["three_sum_closest", "three_sum_closest!"]
+id = 16
+link = "https://leetcode.com/problems/3sum-closest/description/"
+runs = []
+slug = "3sum-closest"
+title = "3Sum Closest"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-16"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

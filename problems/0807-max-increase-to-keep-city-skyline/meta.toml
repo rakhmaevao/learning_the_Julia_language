@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Medium"
+entrypoints = ["max_increase_keeping_skyline"]
+id = 807
+link = "https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/"
+runs = []
+slug = "max-increase-to-keep-city-skyline"
+title = "Max Increase to Keep City Skyline"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

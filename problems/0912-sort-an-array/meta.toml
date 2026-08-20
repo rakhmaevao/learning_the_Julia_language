@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Medium"
+entrypoints = ["sort_array"]
+id = 912
+link = "https://leetcode.com/problems/sort-an-array/description/"
+runs = []
+slug = "sort-an-array"
+title = "Sort an Array"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Hash Table"]
+difficulty = "Easy"
+entrypoints = ["occurrences_after_bigram"]
+id = 1078
+link = "https://leetcode.com/problems/occurrences-after-bigram/description/"
+runs = []
+slug = "occurrences-after-bigram"
+title = "Occurrences After Bigram"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-09-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

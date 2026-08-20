@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["matrixReshape"]
+id = 566
+link = "https://leetcode.com/problems/reshape-the-matrix/description/"
+runs = []
+slug = "reshape-the-matrix"
+title = "Reshape the Matrix"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-02-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

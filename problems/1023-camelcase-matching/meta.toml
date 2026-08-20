@@ -1,0 +1,22 @@
+categories = ["String", "Trie"]
+difficulty = "Medium"
+entrypoints = ["matches", "camelMatch"]
+id = 1023
+link = "https://leetcode.com/problems/camelcase-matching/description/"
+runs = []
+slug = "camelcase-matching"
+title = "Camelcase Matching"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Pixia1234"
+date = "2024-06-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

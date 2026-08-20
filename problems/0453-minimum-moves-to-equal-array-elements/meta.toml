@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Easy"
+entrypoints = ["min_moves_453"]
+id = 453
+link = "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/"
+runs = []
+slug = "minimum-moves-to-equal-array-elements"
+title = "Minimum Moves to Equal Array Elements"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-02"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

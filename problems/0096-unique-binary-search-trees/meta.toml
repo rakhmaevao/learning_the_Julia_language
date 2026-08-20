@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming", "Tree"]
+difficulty = "Medium"
+entrypoints = ["num_of_trees"]
+id = 96
+link = "https://leetcode.com/problems/unique-binary-search-trees/description/"
+runs = []
+slug = "unique-binary-search-trees"
+title = "Unique Binary Search Trees"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

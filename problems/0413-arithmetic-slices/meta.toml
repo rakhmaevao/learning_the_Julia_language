@@ -1,0 +1,22 @@
+categories = ["Math", "Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["number_of_arithmetic_slices"]
+id = 413
+link = "https://leetcode.com/problems/arithmetic-slices/description/"
+runs = []
+slug = "arithmetic-slices"
+title = "Arithmetic Slices"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["String", "Backtracking", "Depth-first Search", "Recursion"]
+difficulty = "Medium"
+entrypoints = ["letter_combinations"]
+id = 17
+link = "https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
+runs = []
+slug = "letter-combinations-of-a-phone-number"
+title = "Letter Combinations of a Phone Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

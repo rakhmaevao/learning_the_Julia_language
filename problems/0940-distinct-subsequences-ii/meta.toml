@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Hard"
+entrypoints = ["distinct_subseq2"]
+id = 940
+link = "https://leetcode.com/problems/distinct-subsequences-ii/description/"
+runs = []
+slug = "distinct-subsequences-ii"
+title = "Distinct Subsequences II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-10-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

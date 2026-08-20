@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["to_lower_case"]
+id = 709
+link = "https://leetcode.com/problems/to-lower-case/description/"
+runs = []
+slug = "to-lower-case"
+title = "To Lower Case"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-11-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

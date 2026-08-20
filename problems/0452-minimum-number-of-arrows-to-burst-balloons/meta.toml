@@ -1,0 +1,22 @@
+categories = ["Greedy", "Sort"]
+difficulty = "Medium"
+entrypoints = ["find_min_arrow_shots"]
+id = 452
+link = "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/"
+runs = []
+slug = "minimum-number-of-arrows-to-burst-balloons"
+title = "Minimum Number of Arrows to Burst Balloons"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "AquaIndigo"
+date = "2020-11-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

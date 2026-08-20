@@ -1,0 +1,22 @@
+categories = ["Design", "Trie"]
+difficulty = "Medium"
+entrypoints = ["insert_node!", "search_prefix_node", "search_word", "starts_with"]
+id = 208
+link = "https://leetcode.com/problems/implement-trie-prefix-tree/description/"
+runs = []
+slug = "implement-trie-prefix-tree"
+title = "Implement Trie (Prefix Tree)"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

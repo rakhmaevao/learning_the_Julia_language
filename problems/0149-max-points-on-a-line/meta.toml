@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Hard"
+entrypoints = ["max_points"]
+id = 149
+link = "https://leetcode.com/problems/max-points-on-a-line/description/"
+runs = []
+slug = "max-points-on-a-line"
+title = "Max Points on a Line"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Linked List"]
+difficulty = "Medium"
+entrypoints = ["swap_pairs"]
+id = 24
+link = "https://leetcode.com/problems/swap-nodes-in-pairs/description/"
+runs = []
+slug = "swap-nodes-in-pairs"
+title = "Swap Nodes in Pairs"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

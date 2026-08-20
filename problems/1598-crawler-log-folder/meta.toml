@@ -1,0 +1,22 @@
+categories = ["Stack"]
+difficulty = "Easy"
+entrypoints = ["min_operations_1198"]
+id = 1598
+link = "https://leetcode.com/problems/crawler-log-folder/description/"
+runs = []
+slug = "crawler-log-folder"
+title = "Crawler Log Folder"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

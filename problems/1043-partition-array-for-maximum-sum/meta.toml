@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["max_sum_after_partitioning"]
+id = 1043
+link = "https://leetcode.com/problems/partition-array-for-maximum-sum/description/"
+runs = []
+slug = "partition-array-for-maximum-sum"
+title = "Partition Array for Maximum Sum"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-09-01"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

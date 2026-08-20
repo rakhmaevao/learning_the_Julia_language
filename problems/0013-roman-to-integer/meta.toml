@@ -1,0 +1,22 @@
+categories = ["Math", "String"]
+difficulty = "Easy"
+entrypoints = ["roman_to_integer"]
+id = 13
+link = "https://leetcode.com/problems/roman-to-integer/description/"
+runs = []
+slug = "roman-to-integer"
+title = "Roman to Integer"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Jerry Ling"
+date = "2021-12-13"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

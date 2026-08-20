@@ -1,0 +1,22 @@
+categories = ["Depth-first Search"]
+difficulty = "Hard"
+entrypoints = ["contains_cycle"]
+id = 1559
+link = "https://leetcode.com/problems/detect-cycles-in-2d-grid/description/"
+runs = []
+slug = "detect-cycles-in-2d-grid"
+title = "Detect Cycles in 2D Grid"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

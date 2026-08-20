@@ -1,0 +1,22 @@
+categories = ["Tree", "Depth-first Search", "Breadth-first Search"]
+difficulty = "Medium"
+entrypoints = ["right_side_view"]
+id = 199
+link = "https://leetcode.com/problems/binary-tree-right-side-view/description/"
+runs = []
+slug = "binary-tree-right-side-view"
+title = "Binary Tree Right Side View"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-20"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

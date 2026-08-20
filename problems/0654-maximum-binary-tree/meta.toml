@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Medium"
+entrypoints = ["construct_maximum_binary_tree"]
+id = 654
+link = "https://leetcode.com/problems/maximum-binary-tree/description/"
+runs = []
+slug = "maximum-binary-tree"
+title = "Maximum Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-28"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

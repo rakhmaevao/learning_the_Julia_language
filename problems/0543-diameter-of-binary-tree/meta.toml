@@ -1,0 +1,22 @@
+categories = ["Tree"]
+difficulty = "Easy"
+entrypoints = ["diameter_of_binary_tree", "_max_depth_to_leaf"]
+id = 543
+link = "https://leetcode.com/problems/diameter-of-binary-tree/description/"
+runs = []
+slug = "diameter-of-binary-tree"
+title = "Diameter of Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-11-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

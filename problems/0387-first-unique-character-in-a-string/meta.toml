@@ -1,0 +1,22 @@
+categories = ["Hash Table", "String"]
+difficulty = "Easy"
+entrypoints = ["first_unique_char"]
+id = 387
+link = "https://leetcode.com/problems/first-unique-character-in-a-string/description/"
+runs = []
+slug = "first-unique-character-in-a-string"
+title = "First Unique Character in a String"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-01-23"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

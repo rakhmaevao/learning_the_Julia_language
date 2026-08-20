@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["find_max_form"]
+id = 474
+link = "https://leetcode.com/problems/ones-and-zeroes/description/"
+runs = []
+slug = "ones-and-zeroes"
+title = "Ones and Zeroes"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

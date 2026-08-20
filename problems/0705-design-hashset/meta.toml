@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Design"]
+difficulty = "Easy"
+entrypoints = ["hash_705", "add_705!", "remove_705!", "contains_705"]
+id = 705
+link = "https://leetcode.com/problems/design-hashset/description/"
+runs = []
+slug = "design-hashset"
+title = "Design HashSet"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-03-14"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Hash Table"]
+difficulty = "Medium"
+entrypoints = ["least_bricks"]
+id = 554
+link = "https://leetcode.com/problems/brick-wall/description/"
+runs = []
+slug = "brick-wall"
+title = "Brick Wall"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-05-13"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

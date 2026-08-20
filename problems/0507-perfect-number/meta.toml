@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Easy"
+entrypoints = ["perfect_number"]
+id = 507
+link = "https://leetcode.com/problems/perfect-number/description/"
+runs = []
+slug = "perfect-number"
+title = "Perfect Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

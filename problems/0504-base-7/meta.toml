@@ -1,0 +1,22 @@
+categories = []
+difficulty = "Easy"
+entrypoints = ["convert_to_base7"]
+id = 504
+link = "https://leetcode.com/problems/base-7/description/"
+runs = []
+slug = "base-7"
+title = "Base 7"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

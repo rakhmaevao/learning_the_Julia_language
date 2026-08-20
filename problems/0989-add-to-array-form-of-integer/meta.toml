@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["add_to_array_form"]
+id = 989
+link = "https://leetcode.com/problems/add-to-array-form-of-integer/description/"
+runs = []
+slug = "add-to-array-form-of-integer"
+title = "Add to Array-Form of Integer"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

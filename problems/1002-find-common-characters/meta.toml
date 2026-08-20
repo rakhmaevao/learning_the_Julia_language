@@ -1,0 +1,22 @@
+categories = ["Array", "Hash Table"]
+difficulty = "Easy"
+entrypoints = ["common_chars"]
+id = 1002
+link = "https://leetcode.com/problems/find-common-characters/description/"
+runs = []
+slug = "find-common-characters"
+title = "Find Common Characters"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

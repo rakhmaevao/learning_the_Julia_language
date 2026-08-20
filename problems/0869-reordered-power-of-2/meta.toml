@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["reordered_power_of2"]
+id = 869
+link = "https://leetcode.com/problems/reordered-power-of-2/description/"
+runs = []
+slug = "reordered-power-of-2"
+title = "Reordered Power of 2"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-07-11"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,23 @@
+categories = ["Binary Search", "Divide and Conquer", "Sort", "Binary Indexed Tree", "Segment Tree"]
+difficulty = "Hard"
+entrypoints = ["count_smaller_method1", "count_smaller_method2"]
+id = 315
+link = "https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/"
+reference_ok = false
+runs = []
+slug = "count-of-smaller-numbers-after-self"
+title = "Count of Smaller Numbers After Self"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-03-26"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

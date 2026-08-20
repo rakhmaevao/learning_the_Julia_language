@@ -1,0 +1,22 @@
+categories = ["Greedy", "Sliding Window"]
+difficulty = "Hard"
+entrypoints = ["min_k_bit_flips"]
+id = 995
+link = "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/"
+runs = []
+slug = "minimum-number-of-k-consecutive-bit-flips"
+title = "Minimum Number of K Consecutive Bit Flips"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-18"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

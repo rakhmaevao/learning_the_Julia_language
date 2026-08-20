@@ -1,0 +1,22 @@
+categories = ["Bit Manipulation"]
+difficulty = "Medium"
+entrypoints = ["single_number"]
+id = 137
+link = "https://leetcode.com/problems/single-number-ii/description/"
+runs = []
+slug = "single-number-ii"
+title = "Single Number II"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-03"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

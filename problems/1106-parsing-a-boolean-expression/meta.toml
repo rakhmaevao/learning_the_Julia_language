@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Hard"
+entrypoints = ["parse_bool_expr"]
+id = 1106
+link = "https://leetcode.com/problems/parsing-a-boolean-expression/description/"
+runs = []
+slug = "parsing-a-boolean-expression"
+title = "Parsing A Boolean Expression"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-03-08"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

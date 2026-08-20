@@ -1,0 +1,22 @@
+categories = ["Stack"]
+difficulty = "Medium"
+entrypoints = ["is_valid_serialization"]
+id = 331
+link = "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/"
+runs = []
+slug = "verify-preorder-serialization-of-a-binary-tree"
+title = "Verify Preorder Serialization of a Binary Tree"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-03-12"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

@@ -1,0 +1,22 @@
+categories = ["Dynamic Programming"]
+difficulty = "Medium"
+entrypoints = ["max_profit_309"]
+id = 309
+link = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/"
+runs = []
+slug = "best-time-to-buy-and-sell-stock-with-cooldown"
+title = "Best Time to Buy and Sell Stock with Cooldown"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-06-10"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

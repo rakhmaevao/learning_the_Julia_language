@@ -1,0 +1,22 @@
+categories = ["Stack", "Design"]
+difficulty = "Easy"
+entrypoints = ["Base.push!", "Base.pop!", "top", "get_min"]
+id = 155
+link = "https://leetcode.com/problems/min-stack/description/"
+runs = []
+slug = "min-stack"
+title = "Min Stack"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-15"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

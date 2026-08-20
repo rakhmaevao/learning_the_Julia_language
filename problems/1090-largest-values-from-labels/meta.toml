@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Greedy"]
+difficulty = "Medium"
+entrypoints = ["largest_vals_from_labels"]
+id = 1090
+link = "https://leetcode.com/problems/largest-values-from-labels/description/"
+runs = []
+slug = "largest-values-from-labels"
+title = "Largest Values From Labels"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-09-29"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

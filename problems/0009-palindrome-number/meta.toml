@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Easy"
+entrypoints = ["is_palindrome"]
+id = 9
+link = "https://leetcode.com/problems/palindrome-number/description/"
+runs = []
+slug = "palindrome-number"
+title = "Palindrome Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

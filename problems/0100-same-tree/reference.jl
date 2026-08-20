@@ -1,0 +1,15 @@
+# ВНИМАНИЕ: эталонное решение (спойлер!) из JuliaCN/LeetCode.jl
+
+using LeetKit.Support
+
+function is_same_tree(p::Union{TreeNode, Nothing}, q::Union{TreeNode, Nothing})::Bool
+    if isnothing(p) && isnothing(q)
+        return true
+    elseif isnothing(p) || isnothing(q)
+        return false
+    elseif p.val != q.val
+        return false
+    else
+        return is_same_tree(p.left, p.left) && is_same_tree(p.right, p.right)
+    end
+end

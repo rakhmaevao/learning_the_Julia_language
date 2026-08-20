@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Medium"
+entrypoints = ["compute_area"]
+id = 223
+link = "https://leetcode.com/problems/rectangle-area/description/"
+runs = []
+slug = "rectangle-area"
+title = "Rectangle Area"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-21"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

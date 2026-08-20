@@ -1,0 +1,23 @@
+categories = ["String"]
+difficulty = "Medium"
+entrypoints = ["min_distance583"]
+id = 583
+link = "https://leetcode.com/problems/delete-operation-for-two-strings/description/"
+reference_ok = false
+runs = []
+slug = "delete-operation-for-two-strings"
+title = "Delete Operation for Two Strings"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Tian Jun"
+date = "2020-10-31"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

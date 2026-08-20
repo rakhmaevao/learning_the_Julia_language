@@ -1,0 +1,22 @@
+categories = ["Stack"]
+difficulty = "Medium"
+entrypoints = ["find132pattern"]
+id = 456
+link = "https://leetcode.com/problems/132-pattern/description/"
+runs = []
+slug = "132-pattern"
+title = "132 Pattern"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-02-02"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

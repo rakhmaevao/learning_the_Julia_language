@@ -1,0 +1,22 @@
+categories = ["String"]
+difficulty = "Easy"
+entrypoints = ["length_of_last_word"]
+id = 58
+link = "https://leetcode.com/problems/length-of-last-word/description/"
+runs = []
+slug = "length-of-last-word"
+title = "Length of Last Word"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-09-22"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

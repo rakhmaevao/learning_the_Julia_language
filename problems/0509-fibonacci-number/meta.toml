@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Easy"
+entrypoints = ["fib"]
+id = 509
+link = "https://leetcode.com/problems/fibonacci-number/description/"
+runs = []
+slug = "fibonacci-number"
+title = "Fibonacci Number"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

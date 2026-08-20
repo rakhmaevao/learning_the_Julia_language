@@ -1,0 +1,22 @@
+categories = ["Hash Table", "String"]
+difficulty = "Easy"
+entrypoints = ["max_num_of_ballons"]
+id = 1189
+link = "https://leetcode.com/problems/maximum-number-of-balloons/description/"
+runs = []
+slug = "maximum-number-of-balloons"
+title = "Maximum Number of Balloons"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-13"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

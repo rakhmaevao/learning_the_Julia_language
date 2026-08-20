@@ -1,0 +1,22 @@
+categories = ["Array"]
+difficulty = "Medium"
+entrypoints = ["max_chunks_to_sorted_ii"]
+id = 769
+link = "https://leetcode.com/problems/max-chunks-to-make-sorted/description/"
+runs = []
+slug = "max-chunks-to-make-sorted"
+title = "Max Chunks To Make Sorted"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2022-10-13"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

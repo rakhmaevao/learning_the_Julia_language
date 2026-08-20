@@ -1,0 +1,22 @@
+categories = ["Math"]
+difficulty = "Easy"
+entrypoints = ["bitwise_complement"]
+id = 1009
+link = "https://leetcode.com/problems/complement-of-base-10-integer/description/"
+runs = []
+slug = "complement-of-base-10-integer"
+title = "Complement of Base 10 Integer"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Indigo"
+date = "2021-01-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

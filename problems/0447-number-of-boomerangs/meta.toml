@@ -1,0 +1,22 @@
+categories = ["Hash Table", "Math"]
+difficulty = "Medium"
+entrypoints = ["number_of_boomerangs"]
+id = 447
+link = "https://leetcode.com/problems/number-of-boomerangs/description/"
+runs = []
+slug = "number-of-boomerangs"
+title = "Number of Boomerangs"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "Qling"
+date = "2021-05-30"
+repo = "https://github.com/JuliaCN/LeetCode.jl"

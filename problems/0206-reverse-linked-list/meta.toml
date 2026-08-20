@@ -1,0 +1,22 @@
+categories = ["Linked List"]
+difficulty = "Easy"
+entrypoints = ["reverse_list"]
+id = 206
+link = "https://leetcode.com/problems/reverse-linked-list/description/"
+runs = []
+slug = "reverse-linked-list"
+title = "Reverse Linked List"
+
+[progress]
+attempts = 0
+best_bytes = 0
+best_time_ns = 0
+first_solved_at = ""
+notes = ""
+solved_at = ""
+status = "todo"
+
+[source]
+author = "zhwang"
+date = "2022-02-17"
+repo = "https://github.com/JuliaCN/LeetCode.jl"
