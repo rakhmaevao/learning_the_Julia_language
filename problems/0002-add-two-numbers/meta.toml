@@ -3,18 +3,279 @@ difficulty = "Medium"
 entrypoints = ["add_two_numbers"]
 id = 2
 link = "https://leetcode.com/problems/add-two-numbers/description/"
-runs = []
 slug = "add-two-numbers"
 title = "Add Two Numbers"
 
 [progress]
-attempts = 0
-best_bytes = 0
-best_time_ns = 0
-first_solved_at = ""
+attempts = 29
+best_bytes = 167360
+best_time_ns = 4477163
+first_solved_at = "2026-08-21"
 notes = ""
-solved_at = ""
-status = "todo"
+solved_at = "2026-08-21"
+status = "solved"
+
+[[runs]]
+at = "2026-08-21T08:53:37"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T08:53:48"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:00:59"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:08:59"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:11:34"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:11:58"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:14:44"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:36:41"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:37:05"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:38:13"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:39:04"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:41:27"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:44:03"
+bytes = 0
+mode = "solution"
+n_error = 3
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:44:31"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 3
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T09:48:23"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 3
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:41:58"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 3
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:47:13"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 3
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:48:32"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:50:05"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:51:05"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:51:54"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 2
+n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:54:35"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:57:24"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T11:57:46"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T12:01:52"
+bytes = 0
+mode = "solution"
+n_error = 1
+n_fail = 0
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T12:09:14"
+bytes = 0
+mode = "solution"
+n_error = 1
+n_fail = 0
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T12:10:58"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T12:12:04"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-21T12:21:06"
+bytes = 167360
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 3
+passed = true
+time_ns = 4477163
 
 [source]
 author = "Tian Jun"
