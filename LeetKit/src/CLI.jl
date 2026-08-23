@@ -215,14 +215,14 @@ end
 
 function cmd_ui(args)
     flags, _ = _parse_flags(args)
-    port = parse(Int, get(flags, "port", "8080"))
+    port = parse(Int, get(flags, "port", "8083"))
     serve(; port=port, open_browser=!haskey(flags, "no-open"))
 end
 
 const HELP = """
 $(C_BOLD)JuliaLeet$(C_RESET) — тренировка на задачах LeetCode на Julia
 
-  ./leet ui [--port=8080] [--no-open]   веб-интерфейс: таблица задач, фильтры, календарь
+  ./leet ui [--port=8083] [--no-open]   веб-интерфейс: таблица задач, фильтры, календарь
   ./leet list [запрос] [--status=todo|attempted|solved] [--difficulty=Easy]
               [--tag=Array] [--limit=40]
   ./leet show <номер>                   условие задачи и статистика

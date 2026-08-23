@@ -127,11 +127,11 @@ function handle(req::HTTP.Request)
 end
 
 """
-    serve(; port=8080, host="127.0.0.1", open_browser=true)
+    serve(; port=8083, host="127.0.0.1", open_browser=true)
 
 Поднять веб-интерфейс прогресса.
 """
-function serve(; port::Int=8080, host::AbstractString="127.0.0.1", open_browser::Bool=true)
+function serve(; port::Int=8083, host::AbstractString="127.0.0.1", open_browser::Bool=true)
     url = "http://$host:$port"
     println("JuliaLeet UI: $url")
     println("Каталог задач: $(problems_dir())")
