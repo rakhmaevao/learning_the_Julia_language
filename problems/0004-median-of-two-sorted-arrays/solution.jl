@@ -12,10 +12,10 @@ function find_median_sorted_arrays(nums1::Vector{Int}, nums2::Vector{Int})::Floa
 
         if num1 <= num2
             push!(result_vector, num1)
-            i_1 = i_1 + 1
+            i_1 += 1
         else
             push!(result_vector, num2)
-            i_2 = i_2 + 1
+            i_2 += 1
         end
     end
 

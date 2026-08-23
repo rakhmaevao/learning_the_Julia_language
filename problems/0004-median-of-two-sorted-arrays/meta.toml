@@ -7,7 +7,7 @@ slug = "median-of-two-sorted-arrays"
 title = "Median of Two Sorted Arrays"
 
 [progress]
-attempts = 23
+attempts = 24
 best_bytes = 2428008
 best_time_ns = 43521005
 first_solved_at = "2026-08-23"
@@ -222,6 +222,15 @@ n_fail = 0
 n_pass = 42
 passed = true
 time_ns = 45224369
+[[runs]]
+at = "2026-08-23T21:34:58"
+bytes = 2428008
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 42
+passed = true
+time_ns = 44809186
 
 [source]
 author = "Tian Jun"
