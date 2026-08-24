@@ -3,18 +3,72 @@ difficulty = "Medium"
 entrypoints = ["longest_palindrome", "_longest_palindrome"]
 id = 5
 link = "https://leetcode.com/problems/longest-palindromic-substring/description/"
-runs = []
 slug = "longest-palindromic-substring"
 title = "Longest Palindromic Substring"
 
 [progress]
-attempts = 0
-best_bytes = 0
-best_time_ns = 0
-first_solved_at = ""
+attempts = 6
+best_bytes = 103176
+best_time_ns = 3411537
+first_solved_at = "2026-08-24"
 notes = ""
-solved_at = ""
-status = "todo"
+solved_at = "2026-08-24"
+status = "solved"
+
+[[runs]]
+at = "2026-08-24T08:13:02"
+bytes = 103176
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 2
+passed = true
+time_ns = 3411537
+[[runs]]
+at = "2026-08-24T08:15:48"
+bytes = 103688
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 2
+passed = true
+time_ns = 3461138
+[[runs]]
+at = "2026-08-24T08:17:04"
+bytes = 133032
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 3
+passed = true
+time_ns = 4118515
+[[runs]]
+at = "2026-08-24T08:17:33"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 2
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-24T08:17:46"
+bytes = 133032
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 3
+passed = true
+time_ns = 3967459
+[[runs]]
+at = "2026-08-24T08:20:57"
+bytes = 156032
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 4
+passed = true
+time_ns = 4842138
 
 [source]
 author = "Tian Jun"
