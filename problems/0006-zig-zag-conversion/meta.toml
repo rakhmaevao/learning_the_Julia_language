@@ -7,7 +7,7 @@ slug = "zig-zag-conversion"
 title = "ZigZag Conversion"
 
 [progress]
-attempts = 57
+attempts = 62
 best_bytes = 159912
 best_time_ns = 3701728
 first_solved_at = "2026-08-30"
@@ -15,24 +15,6 @@ notes = ""
 solved_at = "2026-08-30"
 status = "solved"
 
-[[runs]]
-at = "2026-08-27T11:27:19"
-bytes = 0
-mode = "solution"
-n_error = 3
-n_fail = 0
-n_pass = 0
-passed = false
-time_ns = 0
-[[runs]]
-at = "2026-08-27T11:27:55"
-bytes = 0
-mode = "solution"
-n_error = 3
-n_fail = 0
-n_pass = 0
-passed = false
-time_ns = 0
 [[runs]]
 at = "2026-08-27T11:28:24"
 bytes = 0
@@ -521,6 +503,51 @@ passed = true
 time_ns = 3701728
 [[runs]]
 at = "2026-08-30T17:57:05"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T18:01:12"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T18:03:17"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T18:03:49"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T18:04:15"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T18:13:37"
 bytes = 0
 mode = "solution"
 n_error = 0

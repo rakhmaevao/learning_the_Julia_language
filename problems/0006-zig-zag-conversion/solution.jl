@@ -17,7 +17,7 @@ function zig_zag_convert(s::String, num_rows::Int)::String
             if row_number > num_rows
                 adding = column_number == 1 ? 1 : 0
                 column_number += 1
-                row_number = num_rows - (column_number % num_rows) + adding
+                row_number = num_rows - (column_number % num_rows) + 1
                 if row_number > num_rows
                     row_number = 1
                 end
@@ -28,7 +28,7 @@ function zig_zag_convert(s::String, num_rows::Int)::String
             adding = column_number < num_rows ? 1 : 0
             row_number = num_rows - (column_number % num_rows) + adding
             result_matrix = [result_matrix zeros_column]
-            if (column_number % num_rows == 0)
+            if ((column_number-1)  % (num_rows-1) == 0)
                 row_number = 1
             end
         end
