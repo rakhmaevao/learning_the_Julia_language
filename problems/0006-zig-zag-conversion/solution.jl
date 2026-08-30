@@ -12,7 +12,7 @@ function zig_zag_convert(s::String, num_rows::Int)::String
         println("New iteration for $character $row_number $column_number")
         display(result_matrix)
         result_matrix[row_number, column_number] = character
-        if ((column_number-1)  % (num_rows-1) == 0)
+        if num_rows != 1 && ((column_number-1)  % (num_rows-1) == 0)
             row_number += 1
             if row_number > num_rows
                 adding = column_number == 1 ? 1 : 0

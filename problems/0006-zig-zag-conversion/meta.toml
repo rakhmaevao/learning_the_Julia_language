@@ -7,9 +7,9 @@ slug = "zig-zag-conversion"
 title = "ZigZag Conversion"
 
 [progress]
-attempts = 53
-best_bytes = 1298152
-best_time_ns = 8127669
+attempts = 57
+best_bytes = 159912
+best_time_ns = 3701728
 first_solved_at = "2026-08-30"
 notes = ""
 solved_at = "2026-08-30"
@@ -490,6 +490,42 @@ mode = "solution"
 n_error = 1
 n_fail = 1
 n_pass = 1
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T17:52:54"
+bytes = 1298152
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 1
+passed = true
+time_ns = 7806391
+[[runs]]
+at = "2026-08-30T17:54:11"
+bytes = 0
+mode = "solution"
+n_error = 1
+n_fail = 0
+n_pass = 0
+passed = false
+time_ns = 0
+[[runs]]
+at = "2026-08-30T17:56:52"
+bytes = 159912
+mode = "solution"
+n_error = 0
+n_fail = 0
+n_pass = 1
+passed = true
+time_ns = 3701728
+[[runs]]
+at = "2026-08-30T17:57:05"
+bytes = 0
+mode = "solution"
+n_error = 0
+n_fail = 1
+n_pass = 0
 passed = false
 time_ns = 0
 
